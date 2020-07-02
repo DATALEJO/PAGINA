@@ -1,0 +1,108 @@
+
+#Sistema control de versiones: Registra cambios sobre archivos a lo largo del tiempo
+#Local: Computador, no sale, sol vive en la computadora local
+#Sistema control de versiones centralizados :Servidor. Un solo lugar de procesamiento
+#Sistemas de controles distribuidos git VCS
+# estados de git:
+#Working Directory
+#Staging Area. Esta es una área de preparación.
+#Git Directory (repository)
+
+
+
+#Que es git hub:
+
+#GitHub Es una plataforma en la que se almacenan los cambios de un proyecto. Además es una plataforma que #funciona como una red social. Aquí, las personas que visiten tu sitio puedan darle estrellitas a los #proyectos que hayas desarrollado.
+
+
+#git log : muestra los códigos hexadecimales que crea Sha-1, el autor y la fecha en la que se envió el ese #commit.
+
+#El comando reset --soft nos permite identificar el commit que queremos resetear.
+#Mixed
+#Hard
+
+
+git .ini
+git config --global user.email "icgarmando@hotmail.com"
+git config --global user.name "Armando"
+
+
+git status # Muestra el estatus de git
+ssh-keygen -t rsa -b 4096 -C "icgarmando@hotmail.com" # Crea el shh key
+Git add nombre.txt #pone el archivo en estatus verde
+git touch borrar2.txt # Crea el archivo borrar2.txt
+
+
+
+git log --oneline # muestra el historial de
+git diff 1f79ba6 #Muestra la diferencia de la version actual vs el comit  1f79ba6
+git branch Nombre #crea la rama Nombre
+#git branch - d borrar rama
+git add .
+git commit -m "first commit"
+
+git tag -l # muestra las etiquetas
+
+
+git push
+
+
+
+git remote add origin https://github.com/DATALEJO/PAGINAWEB.git # Para unir el repositorio virtual con el local
+git remote -v #para ver que todo este bien
+git remote remove origin # remueve la conexion del local con el virtual
+
+
+#git pull/fetch (Trayendo cambios desde el repositorio remoto) 
+
+git fecth origin master # Trae los datos del repositorio remoto: Trae los archivos que exiten en el repositorio # remoto (Origin) y los mezcla con el repositorio local en la rama mas
+ter 
+git checkout origin master #  navega sobre la rama creada
+
+git merge origin/master #1 Comando para mergear el repositorio local con origin
+git merge origin/master --allow-unrelated-histories # Cuando no funciona #1 se usa este comando
+
+# Luego se hace un commit automatico
+
+# Los pasos anteriores (Combinar los datos del repositorio remoto llamado origin y combinarlos con el local)
+# también se pueden realizar con el siguiente comando:
+git pull origin/master
+
+
+#Enviar Cambios al repositorio remoto
+
+git push origin master
+git push origin master --tags #enviar tags
+git push origin master #Para enviar ramas, aquí enviamos la master del repositorio local
+
+#gitignore
+git touch .gitignore
+Luego escribimos dentro de el los archivos que queremos ignorar (con la extension: example.py)
+git add -A #para agregar el archivo gitignore
+git commit -m 'agregando el archivo gitignore'
+# si hay cambios en el repositorio remoto, entonces se debe hacer el git pull origin master y despues el git 
+# push
+git push origin  master
+
+#Pull request: proceso para revisar los cambios antes de integrarse al master (necesitamos bloquear los #cambios en el master)
+
+#Se debe crear una rama para enviar los datos al repositorio remoto
+git checkout -b ramaz
+#git checkout : Sirve para moverse entre ramas
+git push origin ramaz
+
+#issues y milestones
+
+#milestones : Agrupar issues
+
+
+#copias de proyectos
+#fork
+
+#pull request : enviar canmbios al proyecto ariginal
+
+
+#Github Page: setting githubpage: solo sirve para contenido estático
+
+
+

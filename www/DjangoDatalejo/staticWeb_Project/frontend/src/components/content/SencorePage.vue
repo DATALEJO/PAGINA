@@ -1,0 +1,137 @@
+<template>
+    <div class="fondo">       
+        <section class="fondo1" :style= "{ backgroundImage: 'url(' + require('@/assets/sencore0.jpg') + ')' }">
+                <navbar_dl></navbar_dl>
+            <div class="container2" >
+                <h1 class="sencore-title">{{tituloArticulo}}</h1>
+            </div>
+        </section>
+        <section :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
+            <div class="container1" >
+            </div>
+        </section>
+        
+        <div class="frame-classic">
+        <articuloFrame  
+            v-bind:tituloArticulo= "title3" 
+            v-bind:textoArticulo= "article3" 
+            v-bind:textoSobreImagen= "textimg3"
+            v-bind:imagenConGamma= "imagenConGamma3"
+            v-bind:imagenFondo= "imagenFondo3"
+        />
+        </div>
+        <div class="frame-classic">
+            <articuloIzqFrame  
+                v-bind:tituloArticulo= "title0" 
+                v-bind:textoArticulo= "article0" 
+                v-bind:textoSobreImagen= "textimg0"
+                v-bind:imagenConGamma= "imagenConGamma0"
+                v-bind:imagenFondo= "imagenFondo0"
+            />
+        </div>
+
+        <div class="frame-classic">
+        <articuloFrame  
+            v-bind:tituloArticulo= "title1" 
+            v-bind:textoArticulo= "article1" 
+            v-bind:textoSobreImagen= "textimg1"
+            v-bind:imagenConGamma= "imagenConGamma1"
+            v-bind:imagenFondo= "imagenFondo1"
+        />
+        </div>
+        <lowerBanner />
+    </div>
+</template>
+
+<script>
+//import Parallax from "vue-parallaxy";
+import navbar_dl from '@/components/page_web/ListNavbar.vue';
+import articuloFrame from '@/components/ArticuloFrame/ArticuloFrame.vue';
+import articuloIzqFrame from '@/components/ArticuloFrame/ArticuloIzqFrame.vue';
+import articuloIzqFrameColor from '@/components/ArticuloFrame/ArticuloIzqFrameColor.vue';
+import lowerBanner from '@/components/ArticuloFrame/LowerBanner.vue';
+export default {
+  name: 'paralax_dl',
+  components: {
+    navbar_dl,
+    articuloIzqFrame,
+    articuloFrame,
+    lowerBanner
+  },
+  props: {
+      tituloArticulo:{
+        type: String,
+        default:"Sencore"
+      },
+  },
+  data(){
+    return {    
+        
+      title3:'Sensores a la medida',
+      article3:'El servicio  Sencore es una solución '+
+                'basada en sensores que permite obtener información'+
+                ', generar alarmas e indicadores de acuerdo a la necesidad de su negocio.',
+      textimg3: 'Sencore',
+      imagenConGamma3:"Servicios.png",
+      imagenFondo3:"sencore5.jpg",
+
+      title0:'¿Cómo es el proceso?',
+      article0:'Evaluamos su requerimiento,'+
+                'buscamos la tecnología que cumpla el requerimiento seleccionando:'+
+                'Menor precio, '+
+                'Ahorro energetico y '+
+                'Cobertura tecnología comunicación.',
+      textimg0: 'Sencore',
+      imagenConGamma0:"Servicios.png",
+      imagenFondo0:"raspis.jpg",
+
+
+      title1:'¿ Y Después?',
+      article1:'Generamos un piloto a su medida '+
+                'Realizamos cambios si son necesarios. '+ 
+                'Generamos la solución a su medida para mejorar su proceso.',
+      textimg1: 'Sencore',
+      imagenConGamma1:"quehacemos.png",
+      imagenFondo1:"Sencore3.jpg",
+    }
+  },
+ 
+};
+</script>
+<style>
+
+.container1{
+    height: 10vh;
+}
+.container2{
+    height: 70vh;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 12rem ;
+}
+.fondo1{
+    /*background: url(imagen.png) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*opacity:0.2;*/
+}
+.sencore-title{
+    color: rgb(221, 225, 236);
+    size: 40vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+.frame-classic{
+
+    height: 95vh;
+}
+.navbar_dl{
+        color: white;
+}
+
+.color_item{
+  color: rgb(172, 172, 184);
+}
+</style>
