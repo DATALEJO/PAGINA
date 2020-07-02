@@ -28,7 +28,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#qkt#^g1#2$)aac%t4wb%jpw%&w3)(=ffc_k_%)65_&!u8u#a7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # The default is HTTP_X_CSRFTOKEN.
 # Now Django will look for this header name on the request.
@@ -42,14 +42,14 @@ CSRF_COOKIE_NAME = "csrftoken"
 CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.84.80.51','datalejo.com']
 
 
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
-    'https://localhost:8000',
-    'https://localhost:8080',
+    'https://localhost:80',
+    'https://localhost:80',
 ]
 
 #smtp
