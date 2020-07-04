@@ -42,14 +42,14 @@ CSRF_COOKIE_NAME = "csrftoken"
 CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.84.80.51','datalejo.com','www.datalejo.com','ec2-3-84-80-51.compute-1.amazonaws.com']
 
 
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
-    'https://localhost:8000',
-    'https://localhost:8080',
+    'https://localhost:80',
+    'https://localhost:80',
 ]
 
 #smtp
