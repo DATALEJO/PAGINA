@@ -28,7 +28,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#qkt#^g1#2$)aac%t4wb%jpw%&w3)(=ffc_k_%)65_&!u8u#a7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # The default is HTTP_X_CSRFTOKEN.
 # Now Django will look for this header name on the request.
