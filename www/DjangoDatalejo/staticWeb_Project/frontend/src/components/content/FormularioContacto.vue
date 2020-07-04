@@ -251,9 +251,7 @@ export default {
   color: #42b983;
   font-size: 56px;
 }
-.container1{
-    height: 10vh;
-}
+
 .container2fm{
     height: 40vh;
     text-align: center;

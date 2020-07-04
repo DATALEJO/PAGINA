@@ -1,7 +1,6 @@
 <template >
   <section >
-    <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }"
-            style="z-index: -1;">
+    <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row"  >
             <div class="col-md-6" style="padding:100px;">
                     <h1 class="titleArticle" >{{tituloArticulo}}</h1>
@@ -91,6 +90,7 @@ export default {
   padding: 0vh;
   z-index: -1;
   background-image: '@/assets/fondoTodo.png';
+  padding: 10px 0px 10px 0px;
 }
 .contenedor-paralax{
   position: relative;
@@ -114,7 +114,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height:100%;
+  /*height:100%;*/
   z-index: 0;
   /*height:"1600";*/
 }
@@ -133,4 +133,11 @@ export default {
 .big-row {
   height: 40vh;
 }
+/*
+@media screen and (max-width: 600px){
+  .container-fluid{
+    height: 150vh;
+  }
+}
+*/
 </style>

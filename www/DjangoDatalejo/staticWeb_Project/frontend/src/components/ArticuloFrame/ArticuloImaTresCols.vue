@@ -1,7 +1,6 @@
 <template >
   <section >
-        <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }"
-            style="z-index: -1;">>
+        <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
             <div class="row "  >
                 <div class="col-md-6">
                     <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
@@ -103,9 +102,11 @@ export default {
 
 .container-fluid{
   position: relative;
+  z-index: -1;
   /*height: 500px;*/
   /*background-color: rgb( 26, 78, 187);*/
   /*width: 100%;*/
+  padding: 10px 0px 10px 0px;
 }
 
 

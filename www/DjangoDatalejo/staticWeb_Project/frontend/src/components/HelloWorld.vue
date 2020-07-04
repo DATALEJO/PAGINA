@@ -92,7 +92,7 @@ export default {
       
       articuloInter0:'Usamos sensores, tecnologías iot, algoritmos de inteligencia artificial para analizar datos a alta velocidad, creando tableros de resúmenes orientados a la toma de decisiones, con soluciones asequibles en costo.Trabajamos con pequeñas, medianas y grandes  empresas y  asesoramos de forma personalizada para llegar a una solución conjunta',
       
-      tituloSubArticuloA0: ' ' ,
+      tituloSubArticuloA0: '' ,
       textoSubArticuloA0: 'Sensamos para optimizar sus costos de operación.',
       textoSubArticuloB0: 'Capturamos datos y de esta forma podrá ampliar su capacidad de decisión.',
       textoSubArticuloC0: 'Generamos reportes que permiten tomar decisiones en el menor tiempo posible.',

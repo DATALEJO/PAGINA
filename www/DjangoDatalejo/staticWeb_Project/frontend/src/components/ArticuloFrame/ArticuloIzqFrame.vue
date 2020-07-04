@@ -3,7 +3,7 @@
     <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }"
             style="z-index: -1;">
           <div class="row "  >
-            <div class="col-md-6">
+            <div class="col-md-6  col-md-pull-6">
                 <!--<div class="contenedor-paralax">
                       //<h1 class="parallax-title">{{textoSobreImagen}}</h1>
                       <parallax   direction='down' speed-factor="0.1" 
@@ -18,7 +18,7 @@
                     style="border-radius:0px 20px 20px 0px;height: 100%; width: 100%; object-fit: contain">                    
                 </div>              
             </div>
-            <div class="col-md-6" style="padding:100px;">
+            <div class="col-md-6  col-md-push-6" style="padding:100px;">
                     <h1 >{{tituloArticulo}}</h1>
                     <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
             </div>
@@ -89,6 +89,7 @@ export default {
   /*width: 100%;*/
   z-index: -1;
   padding: 0vh;
+  padding: 10px 0px 10px 0px;
 }
 .contenedor-paralax{
   position: relative;

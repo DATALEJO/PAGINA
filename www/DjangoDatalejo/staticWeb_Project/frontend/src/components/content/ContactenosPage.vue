@@ -30,7 +30,7 @@
             v-bind:imagenFondo= "imagenFondo1"
         />
         </div>      
-        <div class="frame-classic-short">
+        <div class="frame-classic-shortcp">
             <section :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">  
                 <div class="container2" >
                     <h1 ><br><br>{{tituloArticulo1}}<br><br></h1>
@@ -47,7 +47,7 @@
                 v-bind:imagenFondo= "imagenFondo2"
             />
         </div>     
-        <div class="frame-classic-short">
+        <div class="frame-classic-shortcp">
             <section :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">  
                 <div class="container2" >
                     <h1 >{{tituloArticulo2}}<br><br></h1>
@@ -140,10 +140,11 @@ export default {
 };
 </script>
 <style>
+.frame-classic-shortcp{
+    height: 100vh;
 
-.container1{
-    height: 10vh;
 }
+
 .container2{
     height: 70vh;
     text-align: center;
@@ -163,13 +164,5 @@ export default {
     color: rgb(221, 225, 236);
     size: 40vh;
     background: rgba(0, 0, 0, 0.6);
-}
-.frame-classic{
-
-    height: 80vh;
-}
-.frame-classic-short{
-
-    height: 60vh;
 }
 </style>

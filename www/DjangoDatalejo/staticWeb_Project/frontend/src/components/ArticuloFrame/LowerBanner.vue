@@ -180,6 +180,7 @@ export default {
   position: relative;
   /*height: 500px;*/
   background-color: rgb(27,34,44);
+  z-index: -1;
   /*width: 100%;*/
 }
 

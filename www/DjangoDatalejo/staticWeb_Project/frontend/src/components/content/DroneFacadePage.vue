@@ -86,9 +86,6 @@ export default {
 </script>
 <style>
 
-.container1{
-    height: 10vh;
-}
 .container2{
     height: 70vh;
     text-align: center;
@@ -108,9 +105,5 @@ export default {
     color: rgb(221, 225, 236);
     size: 40vh;
     background: rgba(0, 0, 0, 0.6);
-}
-.frame-classic{
-
-    height: 90vh;
 }
 </style>

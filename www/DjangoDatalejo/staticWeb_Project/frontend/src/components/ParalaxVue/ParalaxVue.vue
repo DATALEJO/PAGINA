@@ -114,8 +114,12 @@ ul {
 
 @media only screen and (max-width: 600px) {  
   .parallax-eslogan {
-      left: 0;
+    left: 0;
+    top: 25%;
     width: 100%;
+  }
+  .parallax-title {
+    top: 15%;
   }
 }
 .big-row {

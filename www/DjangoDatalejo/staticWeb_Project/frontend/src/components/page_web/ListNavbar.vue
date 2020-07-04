@@ -44,7 +44,7 @@
         <div class="container">
             <div class="logo">
               <router-link class="navbar-brand"  to="/">
-                <img :src="require('@/assets/Logo@2x.png')" alt="very cool bg" width="70" height="55">
+                <img :src="require('@/assets/Logo2x.png')" alt="very cool bg" width="70" height="55">
               </router-link>
             </div>
             <div id="mainListDiv" class="main_list">
@@ -248,7 +248,8 @@ body {
     text-decoration: none;
     color: rgb(173, 170, 170);/*color de la fuente del navbar*/
     line-height: 65px;
-    font-size: 1.9rem;
+    /*font-size: 1.9rem;*/
+    font-size: 140%; /*tamaño de la fuente modo pc*/
     font-weight: bolder;
 }
 
@@ -321,7 +322,7 @@ body {
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
-        font-size: 3rem;
+        font-size: 140%; /*tamaño fuente modo responsive*/
         padding: 20px;
     }
     .nav div.media_button {

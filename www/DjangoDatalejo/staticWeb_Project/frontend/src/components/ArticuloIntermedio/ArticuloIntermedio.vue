@@ -34,6 +34,7 @@ export default {
   /*height: 500px;*/
   /*width: 100%;*/
   padding: 0vh;
+  padding: 5px 0px 5px 0px;
 }
 
 .textArticle{
