@@ -10,6 +10,6 @@ urlpatterns=[
     #router.urls,
     path('api/v1.0/', include(router.urls)),
     path('Contacto/',views.send_email),
-    path('index.html',views.index,name='index'),
+    path('',views.index,name='index'),
     #path('contacto',views.index,name='index'),
 ]
