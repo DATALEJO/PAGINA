@@ -7,8 +7,9 @@
                 <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
                       style="height: 100%; width: 100%; object-fit: contain">
             </div>
-            <div class="col-md-6" >
-                    <h1 class="titleArticle"><br><br><br>{{tituloSubArticulo}}</h1>
+            <div class="col-md-6" style="padding: 5%;" >
+                    <h1 class="titleArticle"><br><br><br>{{tituloArticulo}}</h1>
+                    <h1 class="titleArticle"><br><br>{{tituloSubArticulo}}</h1>
                     <h2 class="textArticle" align="justifed" >{{textoSubArticulo}}<br><br></h2>
                     <h1 class="titleArticle">{{tituloSubArticuloA}}</h1>
                     <h2 class="textArticle" align="justifed" >{{textoSubArticuloA}}<br><br></h2>
@@ -26,6 +27,10 @@
 export default {
   name: 'articuloFrame',
   props: {
+      tituloArticulo:{
+        type: String,
+        default:"Titulo"
+      },
       tituloSubArticulo:{
         type: String,
         default:"este es el titulo del texto"
@@ -81,13 +86,14 @@ export default {
        url(http://fontsgeek.com/fonts/FoundryGridnik-Bold) format('otf');
 }*/
 .textArticle{
-  font-size: 16px;
-   font-weight: normal;
+  font-size: 150%;
+  font-weight: normal;
   color: white;
+  white-space: pre-wrap;
 }
 .titleArticle{
-   font-size: 24px;
-   font-weight: normal;
+   font-size: 170%;
+   font-weight: bolder;
    color: white;
 }
 

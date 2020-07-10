@@ -1,9 +1,8 @@
 <template >
   <section >
-    <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }"
-            style="z-index: -1;">
+    <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row "  >
-            <div class="col-md-6">
+            <div class="col-md-6  ">
                 <!--<div class="contenedor-paralax">
                       //<h1 class="parallax-title">{{textoSobreImagen}}</h1>
                       <parallax   direction='down' speed-factor="0.1" 
@@ -18,7 +17,7 @@
                     style="border-radius:0px 20px 20px 0px;height: 100%; width: 100%; object-fit: contain">                    
                 </div>              
             </div>
-            <div class="col-md-6" style="padding:100px;">
+            <div class="col-md-6  " style="padding:7%;">
                     <h1 >{{tituloArticulo}}</h1>
                     <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
             </div>
@@ -80,6 +79,7 @@ export default {
   /*font-size: medium;*/
   color: rgb(109,113,120);
   font-size: 16px;
+  white-space: pre-wrap;
 
 }
 
@@ -88,8 +88,8 @@ export default {
   /*height: 500px;*/
   /*width: 100%;*/
   z-index: -1;
-  padding: 0vh;
-  padding: 10px 0px 10px 0px;
+  /*padding: 0vh;*/
+  padding: 4% 0% 4% 0%;
 }
 .contenedor-paralax{
   position: relative;
@@ -113,7 +113,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height:100%;
+  /*height:100%;*/
   /*height:"1600";*/
   z-index: 0;
 }
@@ -128,8 +128,8 @@ export default {
   color: rgb(200, 205, 221);
   text-align: center;
 }
-
+/*
 .big-row {
   height: 40vh;
-}
+}*/
 </style>

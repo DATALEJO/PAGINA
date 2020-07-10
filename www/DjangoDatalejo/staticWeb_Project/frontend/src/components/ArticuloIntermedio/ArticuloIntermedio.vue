@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="interbox" >
-            <div class="textArticle" align="center"  padding="100px">{{articuloInter}}</div>
+            <div class="textArticle"  >{{articuloInter}}</div>
           </div>
         </div>
       </div>
@@ -25,22 +25,19 @@ export default {
 </script>
 <style scoped>
 
-.interbox{
-  margin: 5em;
-  font-size: medium;
-}
+
 .container-fluid{
   position: relative;
   /*height: 500px;*/
-  /*width: 100%;*/
-  padding: 0vh;
-  padding: 5px 0px 5px 0px;
+  /*width: 100%;*/  
+  padding: 3% 5% 3% 5%;
 }
 
 .textArticle{
   /*font-size: medium;*/
   color: rgb(109,113,120);
   font-size: 16px;
+  text-align: justify;
 
 }
 </style>

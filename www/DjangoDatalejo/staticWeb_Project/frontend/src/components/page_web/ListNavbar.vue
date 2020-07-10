@@ -219,8 +219,15 @@ body {
     font-size: 2.5rem;
 }
 
-.nav div.logo a:hover .router-link:hover{
+.nav div.logo a:hover .router-link:hover {
     color: rgb(0, 92, 230);
+}
+/*.a:active{
+    color: red;
+}*/
+.a:active {
+    background-color:red;
+    color: green;
 }
 
 .nav div.main_list {
@@ -258,15 +265,6 @@ body {
 }
 
 
-/* Home section */
-
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
-    background-position: center top;
-	background-size:cover;
-}
 
 .navTrigger {
     display: none;

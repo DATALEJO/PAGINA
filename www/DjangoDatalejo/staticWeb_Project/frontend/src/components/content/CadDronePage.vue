@@ -68,11 +68,11 @@ export default {
 
 
       title1:'Usos',
-      article1:'Ayuda visual para de venta inmuebles'+
-                'Seguimiento de obra'+
-                'Calculo de volúmenes'+
-                'Muestra visual para guías turísticas'+
-                'Evaluación estado de maquinaria y equipo',
+      article1:'Ayuda visual para de venta inmuebles. \n'+
+                'Seguimiento de obra.\n'+
+                'Calculo de volúmenes.\n'+
+                'Muestra visual para guías turísticas.\n'+
+                'Evaluación estado de maquinaria y equipo.\n',
 
       textimg1: 'Capdron',
       imagenConGamma1:"quehacemos.png",

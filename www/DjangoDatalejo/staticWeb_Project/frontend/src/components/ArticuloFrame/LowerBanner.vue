@@ -25,7 +25,10 @@
                         <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloA}}<br></h2>-->
                         <h2 class="textArticle" align="justifed" >{{textoSubArticuloAA}}<br></h2>
                         <h2 class="textArticle" align="justifed" >{{textoSubArticuloAB}}<br></h2>
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloAC}}<br></h2>
+                        <router-link class="frame-classic" to="/terminosServicio">
+                          <h2 class="textArticle" align="justifed" >{{textoSubArticuloAC}}<br></h2>
+                        </router-link>
+                        
                     </div>
                     <div class="col-3" >
                         <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloB}}</h1>
@@ -86,19 +89,19 @@ export default {
       },
       tituloSubArticuloA:{
         type: String,
-        default:"PRODUCTOS"
+        default:"LEGAL"
       },
       textoSubArticuloAA:{
         type: String,
-        default:"Dashboards"
+        default:"Politica Seguridad y Cookies"
       },
       textoSubArticuloAB:{
         type: String,
-        default:"Captura de datos "
+        default:"Politica de protección de Datos "
       },
       textoSubArticuloAC:{
         type: String,
-        default:"Sensores"
+        default:"Terminos y Condiciones"
       },
       textoSubArticuloAD:{
         type: String,
@@ -167,11 +170,11 @@ export default {
        url(http://fontsgeek.com/fonts/FoundryGridnik-Bold) format('otf');
 }*/
 .textArticle{
-  font-size: small;
+  font-size: 140%;
   color: white;
 }
 .titleArticle{
-   font-size: small;
+  font-size: 150%;
    font-weight: bold;
    color: white;
 }

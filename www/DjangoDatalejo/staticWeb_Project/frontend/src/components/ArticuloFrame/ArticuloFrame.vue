@@ -2,7 +2,7 @@
   <section >
     <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row"  >
-            <div class="col-md-6" style="padding:100px;">
+            <div class="col-md-6" style="padding:7%;">
                     <h1 class="titleArticle" >{{tituloArticulo}}</h1>
                     <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
             </div>
@@ -80,6 +80,7 @@ export default {
   /*font-size: medium;*/
   color: rgb(109,113,120);
   font-size: 16px;
+  white-space: pre-wrap;
 
 }
 
@@ -90,7 +91,7 @@ export default {
   padding: 0vh;
   z-index: -1;
   background-image: '@/assets/fondoTodo.png';
-  padding: 10px 0px 10px 0px;
+  padding: 4% 0% 4% 0%;
 }
 .contenedor-paralax{
   position: relative;
@@ -140,4 +141,8 @@ export default {
   }
 }
 */
+.pre{
+  border: transparent;
+  background-color: transparent;
+}
 </style>

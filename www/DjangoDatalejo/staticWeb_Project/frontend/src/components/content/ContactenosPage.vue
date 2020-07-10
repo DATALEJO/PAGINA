@@ -86,7 +86,7 @@ export default {
       textoArticulo1:{
         type: String,
         default:'Proveer soluciones tecnológicas basadas en el uso de sensores'+
-                ', herramientas iot, algoritmos de aprendizaje y  análisis de '+
+                ', herramientas IoT, algoritmos de aprendizaje y  análisis de '+
                 'datos orientadas a la toma de decisiones para optimizar recursos'+
                 '. Nuestra promesa de valor es la velocidad de los procesos y la '+
                 'visualización de los análisis. ',
@@ -117,7 +117,7 @@ export default {
       title1:' ',
       article1:'Entendemos que muchas veces se carece de información para tomar decisiones '+
               'o esta información no está a su alcance de forma inmediata. Para solucionar '+
-              'esto usamos sensores, iot  y algoritmos de aprendizaje automático que'+
+              'esto usamos sensores, IoT  y algoritmos de aprendizaje automático que'+
               ' permiten obtener la información para que se puedan tomar las decisiones '+
               'lo más rápido posible. ',
 

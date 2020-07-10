@@ -35,11 +35,11 @@ export default {
   props: {
       titulo:{
         type: String,
-        default:"Soluciones IOT"
+        default:"DATALEJO"
       },
       eslogan:{
         type: String,
-        default:"Captura y análisis de datos con drones  y sensores en la era 4.0"
+        default:"Nueva Información, Mejores Decisiones"
       },
   }
 };
@@ -84,7 +84,7 @@ ul {
 }
 .parallax-title {
   position: absolute;
-  top: 27%;
+  top: 22%;
   left: 0;
   right: 0;
   padding: 20px;
@@ -96,7 +96,7 @@ ul {
 
 .parallax-eslogan {
   position: absolute;
-  top: 36%;
+  top: 30%;
   left: 38%;
   right: 0;
   width: 25%;

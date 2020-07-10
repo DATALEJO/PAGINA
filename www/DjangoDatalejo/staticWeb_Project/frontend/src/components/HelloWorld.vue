@@ -28,7 +28,8 @@
         />
     </div>
     <div class="frame-classic-long">
-      <articuloIzqFrameColor  
+      <articuloIzqFrameColor 
+        v-bind:tituloArticulo= "titleArt"
         v-bind:tituloSubArticulo= "title2" 
         v-bind:textoSubArticulo= "article2" 
         v-bind:tituloSubArticuloA= "title21" 
@@ -84,13 +85,19 @@ export default {
   },
   data(){
     return {
-      title0:'Que Hacemos',
-      article0:'Capturamos, procesamos y analizamos  información usando como fuente  sensores, tecnologías iot, algoritmos de inteligencia artificial para analizar datos a alta velocidad, creando tableros de resúmenes orientados a la toma de decisiones, con soluciones asequibles en costo.',
+      title0:'Datos en la nube, Información disponible',
+      article0:'Datalejo es una empresa enfocada en capturar, procesar y '+
+              'analizar datos  usando como fuente sensores, tecnologías IoT “Internet Of Things” y  '+
+              ' algoritmos de inteligencia artificial creando tableros de resúmenes orientados a la '+
+              'toma de decisiones con soluciones asequibles en costo. La captura de datos se realiza '+
+              'usando  vehículos no tripulados o desarrollando  hardware a la medida.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",
       imagenFondo0:"ImagenQueHacemos.png",
       
-      articuloInter0:'Usamos sensores, tecnologías iot, algoritmos de inteligencia artificial para analizar datos a alta velocidad, creando tableros de resúmenes orientados a la toma de decisiones, con soluciones asequibles en costo.Trabajamos con pequeñas, medianas y grandes  empresas y  asesoramos de forma personalizada para llegar a una solución conjunta',
+      articuloInter0:'Trabajamos con pequeñas  medianas y grandes empresas asesorando de forma personalizada '+
+                    'sus necesidades para llegar a una solución conjunta. Con nuestros productos y servicios '+
+                    'impulsamos su transformación digital. ',
       
       tituloSubArticuloA0: '' ,
       textoSubArticuloA0: 'Sensamos para optimizar sus costos de operación.',
@@ -101,10 +108,11 @@ export default {
       imagenSubArticuloB0:"report.png",
       imagenSubArticuloC0:"seo-report.png",
 
-      title2:'Mejoramos la velocidad con la que puede tomar las decisiones:',
-      article2:'Por medio del uso de  sensores y algoritmos procesamos y analizamos los datos de manera rápida para que  tomes mejores decisiones en el menor tiempo posible.',
-      title21:'Ampliamos su capacidad de decisión',
-      article21:' Al combinar tecnología iot con algoritmos inteligencia artificial podemos ver patrones nuevos que abren nuevos caminos que usted puede explorar. ',
+      titleArt:"BENEFICIOS",
+      title2:'Mejoramos la velocidad de toma de decisiones:',
+      article2:'Por medio del uso de  sensores y algoritmos procesamos y analizamos los datos para que  tome mejores decisiones en el menor tiempo posible.',
+      title21:'Le ayudademos a que decida mejor',
+      article21:' Al combinar tecnología IoT con algoritmos inteligencia artificial y el desarrollo de Hardware podemos adquirir nueva información con la que usted puede mejorar su capacidad de decisión.',
       title22 :'Presentación de la información:',
       article22:'Hacemos que la información obtenida sea fácilmente interpretable.',
       title23 : 'Disminuidos costos:',

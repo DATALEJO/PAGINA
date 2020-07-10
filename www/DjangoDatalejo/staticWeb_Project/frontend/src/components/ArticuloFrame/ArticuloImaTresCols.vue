@@ -6,7 +6,7 @@
                     <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
                            style="border-radius:0px 20px 20px 0px; height: 100%; width: 100%; object-fit: contain ">
                     </div>
-                <div class="col-md-6" >
+                <div class="col-md-6" style="padding:3%">
                     <h1 class="titleArticle"><br><br>{{tituloSubArticuloA}}<br><br><br></h1>
                     <div class="row "  >
                         <div class="col-4" >
