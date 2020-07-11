@@ -2,12 +2,7 @@
   <section >
     <div class="container-fluid" style="z-index: -1;">
           <div class="row "  >
-            <div class="col-md-6">
-                <h1 class="parallax-title">{{textoSobreImagen}}</h1>
-                <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
-                      style="height: 100%; width: 100%; object-fit: contain">
-            </div>
-            <div class="col-md-6" style="padding: 5%;" >
+            <div class=" col-md-6 col-md-push-6" style="padding: 5%;" ><!--inicia a la derecha y baja--> 
                     <h1 class="titleArticle"><br><br><br>{{tituloArticulo}}</h1>
                     <h1 class="titleArticle"><br><br>{{tituloSubArticulo}}</h1>
                     <h2 class="textArticle" align="justifed" >{{textoSubArticulo}}<br><br></h2>
@@ -17,6 +12,11 @@
                     <h2 class="textArticle" align="justifed" >{{textoSubArticuloB}}<br><br></h2>
                     <h1 class="titleArticle">{{tituloSubArticuloC}}</h1>
                     <h2 class="textArticle" align="justifed" >{{textoSubArticuloC}}<br><br><br></h2>
+            </div>
+            <div class=" col-md-6 col-md-pull-6"><!--inicia a la izq y sube-->
+                <h1 class="parallax-title">{{textoSobreImagen}}</h1>
+                <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
+                      style="height: 100%; width: 100%; object-fit: contain">
             </div>
           </div>
     </div>

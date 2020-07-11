@@ -44,12 +44,14 @@
         <div class="container">
             <div class="logo">
               <router-link class="navbar-brand"  to="/">
+              <!--<div class="navbar-brand">-->
                 <img :src="require('@/assets/Logo2x.png')" alt="very cool bg" width="70" height="55">
+              <!--</div>-->
               </router-link>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li ><router-link  to="/"><a>Inicio</a></router-link></li>
+                    <li ><router-link  to="/" ><a>Inicio</a></router-link></li>
                     <li ><router-link  to="/Sencore"><a>Sencore</a></router-link></li>
                     <li ><router-link  to="/CadDrone"><a>CadDrone</a></router-link></li>
                     <li ><router-link  to="/MapSafe"><a>MapSafe</a></router-link></li>
@@ -158,14 +160,18 @@ export default {
   position: fixed; /* Set the navbar to fixed position */
   top: 10; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 1;
 }
 #router-link {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+.navlinks{
+    z-index: 3;
 }
 
 .nav-item{
@@ -193,7 +199,7 @@ body {
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 .contenedor-frontal-navbar{
-  z-index: 3;
+  z-index: -1;
 }
 
 /* Navbar section */
@@ -207,7 +213,7 @@ body {
 }
 
 .nav div.logo {
-    float: left;
+    float: left;/*pone el logo a la izq */
     width: auto;
     height: auto;
     padding-left: 0em;
@@ -218,21 +224,33 @@ body {
     color: #fff;
     font-size: 2.5rem;
 }
-
+/*
 .nav div.logo a:hover .router-link:hover {
-    color: rgb(0, 92, 230);
+    color: red;
+}*/
+.router-link-active{
+   /* background-color: red;  */
+   /* colo: rgb(0, 100, 230);
+  border: 2px  rgb(98, 187, 188) solid;
+  border-radius: 5px;
+  border-spacing: 5px;
+  padding: 5px 2px 2px 2px;
+  text-decoration: underline;*/ /*zona bordes a seleccion*/
 }
 /*.a:active{
     color: red;
 }*/
+/*
 .a:active {
     background-color:red;
     color: green;
 }
+*/
 
 .nav div.main_list {
     height: 65px;
     float: right;
+    /*z-index: 2;*/
 }
 
 .nav div.main_list ul {
@@ -261,13 +279,14 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: rgb(0, 100, 230);
+    color: rgb(0, 100, 230); /* color sobre la cuando ponemos el raton encima */
 }
 
 
 
 .navTrigger {
     display: none;
+    /*z-index: 3;*/
 }
 
 .nav {

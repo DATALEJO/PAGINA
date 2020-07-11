@@ -2,7 +2,11 @@
   <section >
     <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row "  >
-            <div class="col-md-6  ">
+            <div class="col-md-6 col-md-push-6 " style="padding:7%;"><!--inicia a la derecha y baja-->
+                    <h1 >{{tituloArticulo}}</h1>
+                    <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
+            </div>
+            <div class="col-md-6 col-md-pull-6 "><!--inicia a la izq y sube-->
                 <!--<div class="contenedor-paralax">
                       //<h1 class="parallax-title">{{textoSobreImagen}}</h1>
                       <parallax   direction='down' speed-factor="0.1" 
@@ -16,10 +20,6 @@
                     alt="back" 
                     style="border-radius:0px 20px 20px 0px;height: 100%; width: 100%; object-fit: contain">                    
                 </div>              
-            </div>
-            <div class="col-md-6  " style="padding:7%;">
-                    <h1 >{{tituloArticulo}}</h1>
-                    <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
             </div>
           </div>
     </div>
