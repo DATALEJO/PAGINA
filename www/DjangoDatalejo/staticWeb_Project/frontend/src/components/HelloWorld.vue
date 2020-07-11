@@ -115,7 +115,7 @@ export default {
       article21:' Al combinar tecnología IoT con algoritmos inteligencia artificial y el desarrollo de Hardware podemos adquirir nueva información con la que usted puede mejorar su capacidad de decisión.',
       title22 :'Presentación de la información:',
       article22:'Hacemos que la información obtenida sea fácilmente interpretable.',
-      title23 : 'Disminuidos costos:',
+      title23 : 'Disminuimos costos:',
       article23:' Realizamos un estudio de costos a medida  basados en su presupuesto.',
       textimg2: ' ',
       imagenConGamma2:"LogIllo.png",
