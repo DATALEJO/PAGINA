@@ -15,6 +15,7 @@ import DroneFacade from '@/components/content/DroneFacadePage';
 import InventEye from '@/components/content/InventEyePage';
 import Contactenos from '@/components/content/ContactenosPage';
 import Contacto from '@/components/content/FormularioContacto';
+import TerminosServicio from '@/components/content/TerminosServicioPage';
 
 
 Vue.use(Router)
@@ -73,6 +74,15 @@ export default new Router({
       component: Contacto,
       //props: true
     },
+    {
+      path: '/TerminosServicio',
+      name: 'TerminosServicio',
+      component: TerminosServicio,
+      //props: true
+    },
   ],
+  scrollBehavior() {
+      return {x: 0, y: 0}
+  }
   /*mode:'history'*/
 })
