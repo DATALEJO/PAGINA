@@ -7,7 +7,7 @@ import BootstrapVue from 'bootstrap-vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
+import VueAnalytics from 'vue-analytics'
 
 
 
@@ -16,10 +16,26 @@ axios.defaults.xsrfCookieName = "csrftoken"*/
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue);
-/* eslint-disable no-new */
+
+//Configuration VueAnalytics
+Vue.use(VueAnalytics, {
+  id: 'UA-171029601-1',
+  router
+})
+
+// eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
   template: '<App/>'
 })
+/*
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
+*/
+
+
