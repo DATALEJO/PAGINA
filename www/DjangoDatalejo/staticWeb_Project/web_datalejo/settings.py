@@ -42,7 +42,7 @@ CSRF_COOKIE_NAME = "csrftoken"
 CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = ['3.84.80.51','datalejo.com','www.datalejo.com','ec2-3-84-80-51.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ['3.91.89.247','datalejo.com','www.datalejo.com','ec2-3-84-80-51.compute-1.amazonaws.com']
 
 
 CORS_ORIGIN_ALLOW_ALL = True
