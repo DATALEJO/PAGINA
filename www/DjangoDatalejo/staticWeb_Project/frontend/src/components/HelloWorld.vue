@@ -87,10 +87,10 @@ export default {
     return {
       title0:'Datos en la nube, Información disponible',
       article0:'Datalejo es una empresa enfocada en capturar, procesar y '+
-              'analizar datos  usando como fuente sensores, tecnologías IoT “Internet Of Things” y  '+
-              ' algoritmos de inteligencia artificial creando tableros de resúmenes orientados a la '+
-              'toma de decisiones con soluciones asequibles en costo. La captura de datos se realiza '+
-              'usando  vehículos no tripulados o desarrollando  hardware a la medida.',
+              'analizar datos  usando como fuente sensores, tecnologías IoT “Internet Of Things” y'+
+              ' algoritmos de inteligencia artificial creando tableros de resumenes orientados a la '+
+              'toma de decisiones, con soluciones asequibles en costo. La captura de datos se realiza '+
+              'usando vehículos no tripulados o desarrollando  hardware a la medida.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",
       imagenFondo0:"ImagenQueHacemos.png",
@@ -109,25 +109,25 @@ export default {
       imagenSubArticuloC0:"seo-report.png",
 
       titleArt:"BENEFICIOS",
-      title2:'Mejoramos la velocidad de toma de decisiones:',
+      title2:'Decida más rápido',
       article2:'Por medio del uso de  sensores y algoritmos procesamos y analizamos los datos para que  tome mejores decisiones en el menor tiempo posible.',
-      title21:'Le ayudademos a que decida mejor',
-      article21:' Al combinar tecnología IoT con algoritmos inteligencia artificial y el desarrollo de Hardware podemos adquirir nueva información con la que usted puede mejorar su capacidad de decisión.',
-      title22 :'Presentación de la información:',
-      article22:'Hacemos que la información obtenida sea fácilmente interpretable.',
-      title23 : 'Disminuimos costos:',
-      article23:' Realizamos un estudio de costos a medida  basados en su presupuesto.',
+      title21:'Resuelva mejor',
+      article21:'Al combinar tecnología IoT con algoritmos de inteligencia artificial y el desarrollo de Hardware podemos adquirir nueva información con la que usted puede mejorar su capacidad de decisión.',
+      title22 :'Visualice',
+      article22:'Hacemos que la información obtenida sea de fácil interpreción a través del uso de tableros de datos.',
+      title23 : 'Disminuya riesgos',
+      article23:'Usando drones y sensores reducimos la exposición de su personal a posibles riesgos.',
       textimg2: ' ',
       imagenConGamma2:"LogIllo.png",
       imagenFondo2:"rgb(63,69,77)",
 
       title3:'Nosotros',
-      articuloInter1:'Estamos comprometidos en impulsar  la transformación de las organizaciones al paradigma de la industria 4.0 para promover nuevos modelos de negocio y así hacer más competitivas a las  empresas.',
+      articuloInter1:'Estamos comprometidos en impulsar  la transformación de las organizaciones al paradigma de la industria 4.0 para promover nuevos modelos de negocio y así, hacer más competitivas a las  empresas.',
       textimg3: 'CapDrone',
       imagenConGamma3:"Nosotros.png",
       imagenFondo3:"ImagenNosotros.png",
 
-      article3:'Datalejo S.A.S. esta conformada por un grupo de ingenieros  con más de 10 años de experiencia en áreas como el uso de sensores, diseño hardware, construcción de soluciones firmware-software, análisis de datos y creación de dashboards orientados a la inteligencia de negocio.',
+      article3:'Datalejo S.A.S. esta conformada por un grupo de ingenieros con más de 10 años de experiencia en áreas relacionadas con uso de sensores, diseño de hardware, construcción de soluciones firmware-software, análisis de datos y creación de dashboards orientados a la inteligencia de negocio.',
     }
   }
 
