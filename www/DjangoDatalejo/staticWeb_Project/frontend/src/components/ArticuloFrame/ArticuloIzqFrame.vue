@@ -1,12 +1,12 @@
 <template >
   <section >
     <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
-          <div class="row "  >
-            <div class="col-md-6 col-md-push-6 " style="padding:7%;"><!--inicia a la derecha y baja-->
-                    <h1 >{{tituloArticulo}}</h1>
-                    <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
+          <div class="row"  >
+            <div class="col-lg-6 col-lg-push-6 " style="padding:7%;" ><!--inicia a la derecha y baja-->
+                    <h1 class="titleArticle">{{tituloArticulo}}</h1>
+                    <div class="textArticle"  ><br>{{textoArticulo}}</div>
             </div>
-            <div class="col-md-6 col-md-pull-6 "><!--inicia a la izq y sube-->
+            <div class="col-lg-6 col-lg-pull-6 "><!--inicia a la izq y sube-->
                 <!--<div class="contenedor-paralax">
                       //<h1 class="parallax-title">{{textoSobreImagen}}</h1>
                       <parallax   direction='down' speed-factor="0.1" 
@@ -15,13 +15,24 @@
                             style="height: 100%; width: 100%; object-fit: contain">
                       </parallax> 
                 </div>-->
-                <div  class="frameBack"  > 
-                <img :src="require('@/assets/' + imagenFondo + '')"  
-                    alt="back" 
-                    style="border-radius:0px 20px 20px 0px;height: 100%; width: 100%; object-fit: contain">                    
-                </div>              
-            </div>
-          </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-10">
+                        <div  class="frameBack1" > 
+                          <img :src="require('@/assets/' + imagenFondo + '')" 
+                                  style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 10% 0% 0% 0%;">                   
+                          </div> 
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+                <div class="col-md-0">
+                </div>        
+              </div>
+        </div>
     </div>
   </section>
 </template>
@@ -72,6 +83,7 @@ export default {
 
   color: rgb(63,69,77);
   font-size: 24px;
+  text-align:justify;
 }
 
 
@@ -80,6 +92,7 @@ export default {
   color: rgb(109,113,120);
   font-size: 16px;
   white-space: pre-wrap;
+  text-align:justify;
 
 }
 
@@ -95,8 +108,21 @@ export default {
   position: relative;
   z-index: -1;
 }
+
+.frameBack1{
+  position: relative;
+  /*background-color: #1b222c;*/
+  z-index: -2;
+}
 .frameBack{
   position: relative;
+  /*background-color: #05668d;*/
+    /*background-color: #05668d;*/
+    /*background-color: #03dcf8;*/
+    /*background-color: #2b2d42;
+    color: #8d99ae;
+    color: #edf2f4; */
+    /*color: #02c39a;*/
   /*speed-factor:"0.5";*/
   /*direction:'down';*/
   /*sectionHeight: "170";*/
@@ -127,6 +153,17 @@ export default {
   background: rgba(0, 0, 0, 0.315);
   color: rgb(200, 205, 221);
   text-align: center;
+}
+@media only screen and (max-width: 700) { 
+
+.textArticle{
+  text-align:center;
+  padding:5%;
+}
+.titleArticle{
+  text-align:center;
+  padding:5%;
+  }
 }
 /*
 .big-row {

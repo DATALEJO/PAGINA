@@ -3,21 +3,33 @@
     <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row"  >
             <div class="col-md-6" style="padding:7%;">
-                    <h1 class="titleArticle" >{{tituloArticulo}}</h1>
-                    <div class="textArticle" align="justifed" ><br>{{textoArticulo}}</div>
+                    <h1 class="titleArticle"  >{{tituloArticulo}}</h1>
+                    <div class="textArticle"  ><br>{{textoArticulo}}</div>
             </div>
             <div class="col-md-6">
                 <div class="contenedor-paralax">
                       <!--<h1 class="parallax-title">{{textoSobreImagen}}</h1>-->
-                      <parallax  :direction='up' speed-factor="0.01"  
+                      <!--<parallax  :direction='up' speed-factor="0.01"  
                           breakpoint="(min-width: 80px)" class="frameFront" >
                             <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
                             style="height: 100%; width: 100%; object-fit: contain">
-                      </parallax>  
-                  <div  class="frameBack"  > 
-                    <img :src="require('@/assets/' + imagenFondo + '')"  
-                        style="border-radius:20px 0px 0px 20px;height: 100%; width: 100%; object-fit: contain">                    
-                  </div> 
+                      </parallax>  -->
+                <div class="col-md-0">
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-10">
+                        <div  class="frameBack1"  >
+                            <img :src="require('@/assets/' + imagenFondo + '')"  
+                                style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 10% 0% 0% 0%;"> 
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                </div>      
                 </div>             
             </div>
           </div>
@@ -71,6 +83,7 @@ export default {
 
   color: rgb(63,69,77);
   font-size: 24px;
+  text-align:center;
 }
 
 .row .col-md-6{
@@ -81,8 +94,20 @@ export default {
   color: rgb(109,113,120);
   font-size: 16px;
   white-space: pre-wrap;
+  text-align:center;
 
 }
+
+@media only screen and (max-width: 800) { 
+
+.textArticle{
+  text-align:justify;
+}
+.titleArticle{
+  text-align:justify;
+  }
+}
+
 
 .container-fluid{
   position: relative;
@@ -97,8 +122,20 @@ export default {
   position: relative;
   z-index: -1;
 }
+
+.frameBack1{
+  position: relative;
+  /*background-color: #05668d;*/
+  z-index: -2;
+}
 .frameBack{
   position: relative;
+    /*background-color: #05668d;
+    color: #028090;*/
+    /*background-color: #1b222c;/*
+    color: #8d99ae;
+    color: #edf2f4; */
+    /*color: #02c39a;*/
   /*speed-factor:"0.5";*/
   /*direction:'down';*/
   /*sectionHeight: "170";*/
@@ -118,6 +155,7 @@ export default {
   /*height:100%;*/
   z-index: 0;
   /*height:"1600";*/
+
 }
 
 .parallax-title {

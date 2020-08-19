@@ -57,6 +57,20 @@
         v-bind:articuloInter= "articuloInter1"
       />
     </div>
+    <router-link class="frame-classic" to="/Contacto">
+       <seccionProductos
+        v-bind:tituloSeccion= "title4"
+        v-bind:tituloArticulo1= "titleArticle1"
+        v-bind:textoArticulo1= "textArticle1"
+        v-bind:imagenFondo1= "imagesection41"
+        v-bind:tituloArticulo2= "titleArticle2"
+        v-bind:textoArticulo2= "textArticle2"
+        v-bind:imagenFondo2= "imagesection42"
+        v-bind:tituloArticulo3= "titleArticle3"
+        v-bind:textoArticulo3= "textArticle3"
+        v-bind:imagenFondo3= "imagesection43"
+       />
+    </router-link>
     <div>
       <lowerBanner />
     </div>
@@ -71,6 +85,7 @@ import articuloIzqFrameColor from '@/components/ArticuloFrame/ArticuloIzqFrameCo
 import lowerBanner from '@/components/ArticuloFrame/LowerBanner.vue';
 import articuloIntermedio from '@/components/ArticuloIntermedio/ArticuloIntermedio.vue';
 import articuloImaTresCols from '@/components/ArticuloFrame/ArticuloImaTresCols.vue';
+import seccionProductos from '@/components/ArticuloFrame/seccionImprods.vue';
 
 export default {
   components: {
@@ -81,6 +96,7 @@ export default {
     articuloIzqFrameColor,
     articuloIzqFrame,
     articuloFrame,
+    seccionProductos,
     lowerBanner
   },
   data(){
@@ -93,7 +109,7 @@ export default {
               'usando vehículos no tripulados o desarrollando  hardware a la medida.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",
-      imagenFondo0:"ImagenQueHacemos.png",
+      imagenFondo0:"ImagenQueHacemos.jpeg",
       
       articuloInter0:'Trabajamos con pequeñas  medianas y grandes empresas asesorando de forma personalizada '+
                     'sus necesidades para llegar a una solución conjunta. Con nuestros productos y servicios '+
@@ -128,7 +144,18 @@ export default {
       imagenFondo3:"ImagenNosotros.png",
 
       article3:'Datalejo S.A.S. esta conformada por un grupo de ingenieros con más de 10 años de experiencia en áreas relacionadas con uso de sensores, diseño de hardware, construcción de soluciones firmware-software, análisis de datos y creación de dashboards orientados a la inteligencia de negocio.',
-    }
+
+      title4: 'Últimos productos',
+      titleArticle1: 'Hardware medición temperatura',
+      textArticle1: 'con este hardware podemos medir la temperatura sin tener contacto con el dispositivo y sin necesidad de tener a una persona operandolo',
+      imagesection41 : 'product0.jpeg',
+      titleArticle2: 'Aplicación Control Covid',
+      textArticle2: 'Con esta app podemos asociar la temperatura de las personas con su numero de identificación',
+      imagesection42 : 'product1.jpeg',
+      titleArticle3: 'Generación de reportes App',
+      textArticle3: 'Permite sacar reportes de la información recogida por nuestras apps y generar reportes ',
+      imagesection43 : 'product2.jpeg',
+}
   }
 
 

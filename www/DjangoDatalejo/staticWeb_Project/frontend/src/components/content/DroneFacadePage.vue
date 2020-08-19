@@ -3,7 +3,7 @@
         <section class="fondo1" :style= "{ backgroundImage: 'url(' + require('@/assets/droneFacade0.png') + ')' }">
                 <navbar_dl></navbar_dl>
             <div class="container2" >
-                <h1 class="sencore-title">{{tituloArticulo}}</h1>
+                <h1 class="dronefacade-title">{{tituloArticulo}}</h1>
             </div>
         </section>
         <section :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
@@ -52,7 +52,7 @@ export default {
   props: {
       tituloArticulo:{
         type: String,
-        default:"Análisis de fachadas"
+        default:"DRONE FACADE"
       },
   },
   data(){
@@ -87,11 +87,11 @@ export default {
 <style>
 
 .container2{
-    height: 70vh;
+    height: 35vh;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
-    padding: 12rem ;
+    padding: 10rem 0rem 0rem 0rem;
 }
 .fondo1{
     /*background: url(imagen.png) no-repeat center center fixed;*/
@@ -100,10 +100,13 @@ export default {
     -o-background-size: cover;
     background-size: cover;
     /*opacity:0.2;*/
-}
-.sencore-title{
-    color: rgb(221, 225, 236);
+}.dronefacade-title{
+    /*color: rgb(221, 225, 236);*/
+    color: RGB(27,34,44);
+    font-size: 320%;
+    text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
     size: 40vh;
-    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    /*background: rgba(0, 0, 0, 0.6);*/
 }
 </style>

@@ -186,7 +186,8 @@ header{
   .router-link-active {
     background-color: #a72a64
   }*/
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+/*@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');*/
+@import url('https://fonts.googleapis.com/css?family=Electrolize:400,500,700');
 html,
 body {
     margin: 0;
@@ -234,8 +235,8 @@ body {
   border: 2px  rgb(98, 187, 188) solid;
   border-radius: 5px;
   border-spacing: 5px;
-  padding: 5px 2px 2px 2px;
-  text-decoration: underline;*/ /*zona bordes a seleccion*/
+  padding: 5px 2px 2px 2px;*/
+  text-decoration: underline; /*zona bordes a seleccion*/
 }
 /*.a:active{
     color: red;
@@ -268,14 +269,25 @@ body {
     padding: 0;
     padding-right: 3rem;
 }
-
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre');
+h1 {
+    font-family: Verdana;
+    font-weight: bolder;
+    font-stretch: bolder;
+    /*color: seagreen;*/
+    font-weight: 300;
+}
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
 .nav div.main_list ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: normal;
+    font-weight: normal;
     text-decoration: none;
     color: rgb(173, 170, 170);/*color de la fuente del navbar*/
     line-height: 65px;
     /*font-size: 1.9rem;*/
     font-size: 140%; /*tamaño de la fuente modo pc*/
-    font-weight: bolder;
+
 }
 
 .nav div.main_list ul li a:hover {
@@ -299,13 +311,13 @@ body {
 
 /* Media qurey section */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1170px) {
     .container {
         margin: 0;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .navTrigger {
         display: block;
     }

@@ -2,17 +2,28 @@
   <section >
         <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
             <div class="row "  >
-                <div class="col-md-6">
-                    <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
-                           style="border-radius:0px 20px 20px 0px; height: 100%; width: 100%; object-fit: contain ">
+                <div class="col-md-1">
+                  
+                </div>
+                <div class="col-md-5">
+                    <div class="col-md-2">
+                      
                     </div>
-                <div class="col-md-6" style="padding:3%">
-                    <h1 class="titleArticle"><br><br>{{tituloSubArticuloA}}<br><br><br></h1>
+                    <div class="col-md-8">                     
+                      <img  :src="require('@/assets/' + imagenConGamma + '')"  
+                            style="border-radius: 20px 20px 20px 20px; height: 100%; width: 100%; object-fit: contain;margin:5% 0% 0% 0%">                 
+                    </div>
+                    <div class="col-md-2">
+                      
+                    </div>
+                </div>
+                <div class="col-md-5" >
+                    <h1 class="titleArticle"><br>{{tituloSubArticuloA}}<br><br></h1>
                     <div class="row "  >
                         <div class="col-4" >
                             <div align="center">
                               <img  :src="require('@/assets/' + imagenSubArticuloA + '')" alt="front" 
-                                     style="height: 50%; width: 50%; object-fit: contain">
+                                     style="border-radius:20px 20px 20px 20px;height: 50%; width: 50%; object-fit: contain">
                             </div>
                             <h2 class="textArticle" align="justifed" ><br><br>{{textoSubArticuloA}}<br></h2>
                         </div>
@@ -32,8 +43,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-1">
+                  
+                </div>
             </div>
-        </div>
+            </div>
     </section>
 </template>
 
@@ -106,7 +120,7 @@ export default {
   /*height: 500px;*/
   /*background-color: rgb( 26, 78, 187);*/
   /*width: 100%;*/
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 30px 0px;
 }
 
 

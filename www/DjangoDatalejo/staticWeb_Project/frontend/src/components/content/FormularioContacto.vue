@@ -144,7 +144,7 @@ export default {
       
     tituloArticulo:{
         type: String,
-        default:"Contacto"
+        default:"CONTACTO"
     },
   },
   data(){
@@ -257,7 +257,7 @@ export default {
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
-    padding: 12rem ;
+    padding: 10rem 0rem 0rem 0rem;
 }
 .fondo1{
     /*background: url(imagen.png) no-repeat center center fixed;*/
@@ -269,7 +269,10 @@ export default {
 }
 .contact-title{
     color: rgb(221, 225, 236);
-    size: 30vh;
+    /*color: RGB(27,34,44);*/
+    font-size: 320%;
+    text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
+    size: 40vh;
     /*background: rgba(0, 0, 0, 0.6);*/
 }
 .frame-fm{
