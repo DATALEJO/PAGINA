@@ -104,9 +104,12 @@ export default {
       title0:'Datos en la nube, Información disponible',
       article0:'Datalejo es una empresa enfocada en capturar, procesar y '+
               'analizar datos  usando como fuente sensores, tecnologías IoT “Internet Of Things” y'+
-              ' algoritmos de inteligencia artificial creando tableros de resumenes orientados a la '+
+              'algoritmos de inteligencia artificial creando tableros de resumenes orientados a la '+
               'toma de decisiones, con soluciones asequibles en costo. La captura de datos se realiza '+
-              'usando vehículos no tripulados o desarrollando  hardware a la medida.',
+              'usando vehículos no tripulados o desarrollando  hardware a la medida.'+
+              '                                                                     '+
+              'Realizamos consutoria en temas relacionados con Business intelligence usando tableau, desarrollo de hardware'+
+              'para el sector petrolero y agrícola, análisis espacial y producción de cartograía para estudios de impacto ambiental.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",
       imagenFondo0:"ImagenQueHacemos.jpeg",
@@ -116,8 +119,8 @@ export default {
                     'impulsamos su transformación digital. ',
       
       tituloSubArticuloA0: '' ,
-      textoSubArticuloA0: 'Sensamos para optimizar sus costos de operación.',
-      textoSubArticuloB0: 'Capturamos datos y de esta forma podrá ampliar su capacidad de decisión.',
+      textoSubArticuloA0: 'Desarrollamos sensores para optimizar sus procesos de operación',
+      textoSubArticuloB0: 'Capturamos datos para ampliar su capacidad de decisión.',
       textoSubArticuloC0: 'Generamos reportes que permiten tomar decisiones en el menor tiempo posible.',
       imagenConGamma1: "ImagenServicios1.png" ,
       imagenSubArticuloA0:"sensor.png",
@@ -132,7 +135,7 @@ export default {
       title22 :'Visualice',
       article22:'Hacemos que la información obtenida sea de fácil interpreción a través del uso de tableros de datos.',
       title23 : 'Disminuya riesgos',
-      article23:'Usando drones y sensores reducimos la exposición de su personal a posibles riesgos.',
+      article23:'Usando vehículos no tripulados y sensores reducimos la exposición de su personal a posibles riesgos.',
       textimg2: ' ',
       imagenConGamma2:"LogIllo.png",
       imagenFondo2:"rgb(63,69,77)",
@@ -147,13 +150,13 @@ export default {
 
       title4: 'Últimos productos',
       titleArticle1: 'Hardware medición temperatura',
-      textArticle1: 'con este hardware podemos medir la temperatura sin tener contacto con el dispositivo y sin necesidad de tener a una persona operandolo',
+      textArticle1: 'Sensor que permite realizar captura de temperatura de forma remota. Cuenta con un dispositivo de proximidad que permite realizar la toma de datos cuando el usuario se acerca al sensor. ',
       imagesection41 : 'product0.jpeg',
       titleArticle2: 'Aplicación Control Covid',
-      textArticle2: 'Con esta app podemos asociar la temperatura de las personas con su numero de identificación',
+      textArticle2: 'Aplicación desarrollada bajo tecnología cloud computing que permite almacenar los datos capturados por el sensor de temperatura, enlázandolos al documento de identidad registrado. ',
       imagesection42 : 'product1.jpeg',
       titleArticle3: 'Generación de reportes App',
-      textArticle3: 'Permite sacar reportes de la información recogida por nuestras apps y generar reportes ',
+      textArticle3: 'Este servició permite analizar los datos capturados por la app, generando reportes relacionados a los usuarios y sus temperaturas.',
       imagesection43 : 'product2.jpeg',
 }
   }
