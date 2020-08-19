@@ -3,7 +3,7 @@
         <section class="fondo1" :style= "{ backgroundImage: 'url(' + require('@/assets/capdron0.jpg') + ')' }">
                 <navbar_dl></navbar_dl>
             <div class="container2" >
-                <h1 class="sencore-title">{{tituloArticulo}}</h1>
+                <h1 class="caddrone-title">{{tituloArticulo}}</h1>
             </div>
         </section>
         <section :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
@@ -52,7 +52,7 @@ export default {
   props: {
       tituloArticulo:{
         type: String,
-        default:"drones para modelos 3d"
+        default:"CADDRONE"
       },
   },
   data(){
@@ -86,11 +86,10 @@ export default {
 
 
 .container2{
-    height: 70vh;
+    height: 35vh;
     text-align: center;
-    vertical-align: middle;
     font-weight: bold;
-    padding: 12rem ;
+    padding: 10rem 0rem 0rem 0rem;
 }
 .fondo1{
     /*background: url(imagen.png) no-repeat center center fixed;*/
@@ -100,9 +99,15 @@ export default {
     background-size: cover;
     /*opacity:0.2;*/
 }
-.sencore-title{
-    color: rgb(221, 225, 236);
+.caddrone-title{
+    /*color: rgb(221, 225, 236);*/
+    /*position: absolute;
+    text-align: center;*/
+    color: RGB(27,34,44);
+    font-size: 320%;
+    text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
     size: 40vh;
-    background: rgba(0, 0, 0, 0.6);
+    /*top:12rem;*/
+    /*background: rgba(0, 0, 0, 0.6);*/
 }
 </style>

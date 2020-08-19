@@ -1,7 +1,7 @@
 <template>
     <div class="ParalaxVue">
         <div>
-          <navbar_dl> </navbar_dl>
+          <navbar_dl></navbar_dl>
         </div>
         <div class="parallax-container">
           <parallax  class="frame_principal" direction='down' >
@@ -39,7 +39,7 @@ export default {
       },
       eslogan:{
         type: String,
-        default:"Nueva Información, Mejores Decisiones"
+        default:"Nueva información, mejores decisiones"
       },
   }
 };
@@ -102,9 +102,9 @@ ul {
   width: 25%;
   /*padding: 20px;*/
   /*background: rgba(0, 0, 0, 0.6);*/
-  color: rgb(98, 187, 188);
+  color: #01a39c;
   text-align: center;
-  border: 2px rgb(98, 187, 188) solid;
+  border: 2px #01a39c solid;
   border-radius: 10px;
   border-spacing: 50px;
   padding: 3px 20px 3px 20px;
@@ -121,6 +121,10 @@ ul {
   .parallax-title {
     top: 15%;
   }
+
+ .parallax-container {
+   height: 70vh;
+   }
 }
 .big-row {
   height: 30vh;

@@ -61,7 +61,7 @@ export default {
   props: {
       tituloArticulo:{
         type: String,
-        default:"Sencore"
+        default:"SENCORE"
       },
   },
   data(){
@@ -102,11 +102,11 @@ export default {
 
 
 .container2{
-    height: 70vh;
+    height: 35vh;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
-    padding: 12rem ;
+    padding: 10rem 0rem 0rem 0rem ;
 }
 .fondo1{
     /*background: url(imagen.png) no-repeat center center fixed;*/
@@ -117,9 +117,18 @@ export default {
     /*opacity:0.2;*/
 }
 .sencore-title{
-    color: rgb(221, 225, 236);
+    /*color: rgb(221, 225, 236);*/
+    /*color: RGB(27,34,44);
+    color: #05668d;
+    color: #028090;
+    color: #2b2d42;
+    color: #8d99ae;*/
+    color: #edf2f4; 
+    /*color: #02c39a;*/
+    font-size: 320%;
+    text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
     size: 40vh;
-    background: rgba(0, 0, 0, 0.6);
+    /*background: rgba(0, 0, 0, 0.6);*/
 }
 
 .navbar_dl{

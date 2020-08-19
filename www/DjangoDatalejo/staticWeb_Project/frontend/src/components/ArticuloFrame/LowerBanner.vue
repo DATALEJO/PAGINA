@@ -1,69 +1,70 @@
 <template >
-  <section class="contbanner" >
-    <div class="container-fluid" >
-          <div class="row "  >
-            <div class="col-12" >
-                <div class="row "  >
-                    <div class="col-3" >
-                        <h1 class="titleArticle" style="font-size: 2vw;"><br><br><br>DATALEJO.COM</h1>
-                        <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloC}}<br></h2>-->
+    <section class="contbanner" >
+        <div class="container-fluid" >
+            <div class="row "  >
+                <div class="col-12" >
+                    <div class="row "  >
+                        <div class="col-3" >
+                            <h1 class="titleArticle" ><br><br><br>DATALEJO.COM</h1>
+                            <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloC}}<br></h2>-->
+                        </div>
+                        <div class="col-3" >
+                            <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloC}}</h1>
+                            <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloC}}<br></h2>-->
+                            <router-link class="frame-classic" to="/Contactenos">
+                                <h2 class="textArticle" align="justifed" >{{textoSubArticuloCA}}<br></h2>
+                            </router-link>
+                            <h2 class="textArticle" align="justifed" >{{textoSubArticuloCB}}<br></h2>
+                                <router-link class="frame-classic" to="/Contacto">
+                                    <h2 class="textArticle" align="justifed" >{{textoSubArticuloCC}}<br><br></h2>
+                                </router-link>
+                        </div>
+                        <div class="col-3" >
+                            <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloA}}</h1>
+                            <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloA}}<br></h2>-->
+                            <h2 class="textArticle" align="justifed" >{{textoSubArticuloAA}}<br></h2>
+                            <h2 class="textArticle" align="justifed" >{{textoSubArticuloAB}}<br></h2>
+                            <router-link class="frame-classic" to="/terminosServicio">
+                                <h2 class="textArticle" align="justifed" >{{textoSubArticuloAC}}<br></h2>
+                            </router-link>                        
+                        </div>
+                        <div class="col-3" >
+                            <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloB}}</h1>
+                            <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloB}}<br></h2>-->
+                            <h2 class="textArticle" align="justifed" >{{textoSubArticuloBA}}<br></h2>
+                            <h2 class="textArticle" align="justifed" >{{textoSubArticuloBB}}<br></h2>
+                            <h2 class="textArticle" align="justifed" >{{textoSubArticuloBC}}<br></h2>
+                        </div>
                     </div>
-                    <div class="col-3" >
-                        <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloC}}</h1>
-                        <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloC}}<br></h2>-->
-                        
-                        <router-link class="frame-classic" to="/Contactenos">
-                          <h2 class="textArticle" align="justifed" >{{textoSubArticuloCA}}<br></h2>
-                        </router-link>
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloCB}}<br></h2>
-                        <router-link class="frame-classic" to="/Contacto">
-                          <h2 class="textArticle" align="justifed" >{{textoSubArticuloCC}}<br><br></h2>
-                        </router-link>
-                    </div>
-                    <div class="col-3" >
-                        <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloA}}</h1>
-                        <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloA}}<br></h2>-->
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloAA}}<br></h2>
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloAB}}<br></h2>
-                        <router-link class="frame-classic" to="/terminosServicio">
-                          <h2 class="textArticle" align="justifed" >{{textoSubArticuloAC}}<br></h2>
-                        </router-link>
-                        
-                    </div>
-                    <div class="col-3" >
-                        <h1 class="titleArticle"><br><br><br>{{tituloSubArticuloB}}</h1>
-                        <!--<h2 class="textArticle" align="justifed" >{{textoSubArticuloB}}<br></h2>-->
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloBA}}<br></h2>
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloBB}}<br></h2>
-                        <h2 class="textArticle" align="justifed" >{{textoSubArticuloBC}}<br></h2>
-                    </div>
-                </div>
-                <div class="row "  >
-                    <div class="col-8" >
-                        <h1 class="titleArticle" style="font-size: 0.9em;"><br>{{textoSubArticuloDA}}</h1>      
-                        <h1 class="titleArticle" style="font-size: 0.9em;">{{tituloSubArticuloD}}</h1>               
-                    </div>
-                      <div class="col-1" style="padding:0; margin:0;"><br>
-                          <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
-                          style="height: 30%; width: 30%; object-fit: contain">
-                      </div>      
-                      <div class="col-1" style="padding:0; margin:0;"><br>
-                          <img  :src="require('@/assets/' + imagenConGamma1 + '')" alt="front"   
-                          style="height: 30%; width: 30%; object-fit: contain">
-                      </div>
-                      <div class="col-1" style="padding:0; margin:0;"><br>
-                          <img  :src="require('@/assets/' + imagenConGamma2 + '')" alt="front"   
-                          style="height: 30%; width: 30%; object-fit: contain">
-                      </div>
-                      <div class="col-1" style="padding:0; margin:0;"><br>
-                          <img  :src="require('@/assets/' + imagenConGamma3 + '')" alt="front"   
-                          style="height: 30%; width: 30%; object-fit: contain">
-                      </div>
+                    <div class="row "  >
+                        <div class="col-8" >
+                            <h1 class="titleArticle" style="font-size: 0.9em;"><br>{{textoSubArticuloDA}}</h1>      
+                            <h1 class="titleArticle" style="font-size: 0.9em;">{{tituloSubArticuloD}}</h1>               
+                        </div>
+                        <div class="col-1" style="padding:0; margin:0;"><br>
+                            <img  :src="require('@/assets/' + imagenConGamma + '')" alt="front"   
+                            style="height: 30%; width: 30%; object-fit: contain">
+                        </div>      
+                        <div class="col-1" style="padding:0; margin:0;"><br>
+                            <img  :src="require('@/assets/' + imagenConGamma1 + '')" alt="front"   
+                            style="height: 30%; width: 30%; object-fit: contain">
+                        </div>
+                        <div class="col-1" style="padding:0; margin:0;"><br>
+                            <a href="https://www.instagram.com/contactodatalejo/">
+                              <img  :src="require('@/assets/' + imagenConGamma2 + '')" alt="front"   
+                              style="height: 30%; width: 30%; object-fit: contain">
+                            </a>
+                        </div>
+                        <div class="col-1" style="padding:0; margin:0;"><br>
+                            <a href="https://business.facebook.com/Datalejo/?business_id=1185923698472797">
+                              <img  :src="require('@/assets/' + imagenConGamma3 + '')" alt="front"  
+                              style="height: 30%; width: 30%; object-fit: contain"> 
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
-    </div>
+        </div>
   </section>
 </template>
 
@@ -170,20 +171,33 @@ export default {
        url(http://fontsgeek.com/fonts/FoundryGridnik-Bold) format('otf');
 }*/
 .textArticle{
-  font-size: 140%;
+  font-size: 1vw;
   color: white;
 }
 .titleArticle{
-  font-size: 150%;
+  font-size: 1vw;
    font-weight: bold;
    color: white;
+}
+
+
+@media only screen and (max-width: 600px) { 
+  .textArticle{
+    font-size: 2.5vw;
+    color: white;
+  }
+  .titleArticle{
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+  } 
 }
 
 .container-fluid{
   position: relative;
   /*height: 500px;*/
   background-color: rgb(27,34,44);
-  z-index: -1;
+  z-index: 1;
   /*width: 100%;*/
 }
 
@@ -198,8 +212,8 @@ export default {
   color: rgb(200, 205, 221);
   text-align: center;
 }
-.contbanner{
+/*.contbanner{
     height: 30vh;
-}
+}*/
 
 </style>

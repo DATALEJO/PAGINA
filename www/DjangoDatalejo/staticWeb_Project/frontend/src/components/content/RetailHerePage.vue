@@ -3,7 +3,7 @@
         <section class="fondo1" :style= "{ backgroundImage: 'url(' + require('@/assets/retailHere0.jpg') + ')' }">
                 <navbar_dl></navbar_dl>
             <div class="container2" >
-                <h1 class="sencore-title">{{tituloArticulo}}</h1>
+                <h1 class="retailhere-title">{{tituloArticulo}}</h1>
             </div>
         </section>
         <section :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
@@ -66,7 +66,7 @@ export default {
   props: {
       tituloArticulo:{
         type: String,
-        default:"Análisis espacial."
+        default:"RETAILHERE"
       },
   },
   data(){
@@ -79,7 +79,7 @@ export default {
       imagenFondo0:"retailHere1.jpg",
 
 
-      title1:' ',
+      title1:'¿Cómo lo hacemos?',
       article1:'Por medio del análisis de variables espaciales y económicas '+
                 'creamos un modelo que permite detectar el mejor sitio para el '+
                 'negocio que se quiere ubicar.  ',
@@ -111,11 +111,11 @@ export default {
 
 
 .container2{
-    height: 70vh;
+    height: 35hv;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
-    padding: 12rem ;
+    padding: 10rem 0rem 0rem 0rem;
 }
 .fondo1{
     /*background: url(imagen.png) no-repeat center center fixed;*/
@@ -125,10 +125,19 @@ export default {
     background-size: cover;
     /*opacity:0.2;*/
 }
-.sencore-title{
-    color: rgb(221, 225, 236);
+.retailhere-title{
+    /*color: rgb(221, 225, 236);*/
+    /*color: RGB(27,34,44);
+    color: #05668d;
+    color: #028090;
+    color: #2b2d42;
+    color: #8d99ae;
+    color: #edf2f4;*/
+    color: #02c39a;
+    font-size: 320%;
+    text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
     size: 40vh;
-    background: rgba(0, 0, 0, 0.6);
+    /*background: rgba(0, 0, 0, 0.6);*/
 }
 .navbar_dl{
         color: white;
