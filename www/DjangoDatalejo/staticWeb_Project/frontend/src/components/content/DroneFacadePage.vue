@@ -74,8 +74,8 @@ export default {
       title1:'Usos',
       article1:'Encontrar humedad, fisuras, daños en acabados'+
                ',modelo de referencia para restauración y control '+
-               ' de fachadas, revisión de áreas comunes./n',
-                'Infraestructura en la industria energética: Paneles solares, turbinas eólicas, líneas eléctricas'+
+               ' de fachadas, revisión de áreas comunes./n'+
+                'Infraestructura en la industria energética: Paneles solares, turbinas eólicas, líneas eléctricas.'+
                 'Infraestructura de transporte: Carreteras, túneles, canales, puentes, puertos, aeropuertos.'+
                 'Infraestructura de comunicaciones: Torres para telefonía celular, instalaciones de cable de'+
                 'fibra óptica.'+
