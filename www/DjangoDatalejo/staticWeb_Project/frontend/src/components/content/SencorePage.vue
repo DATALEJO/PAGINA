@@ -71,26 +71,26 @@ export default {
       article3:'El servicio  Sencore es una solución '+
                 'basada en sensores y desarrollo de hardware que permite capturar y analizar información'+
                 ',generar alarmas e indicadores de acuerdo a la necesidad de su negocio.'+
-                'Desarrollamos sensores de temperatura, proximidad, profundidad, entre otros.Transformamos sus datos en información.',
+                'Desarrollamos sensores de temperatura, proximidad, profundidad, entre otros. Transformamos sus datos en información.',
       textimg3: 'Sencore',
       imagenConGamma3:"Servicios.png",
       imagenFondo3:"sencore5.jpg",
 
       title0:'¿Cómo es el proceso?',
-      article0:'Evaluamos el requerimiento que nos haga llegar de manera escrita, luego  establecemos  reuniones virtuales y de ser necesario visitas a campo. Esto nos permitirá entender mejor sus necesidad.'+
-                'Presentamos una propuesta tecnológica y económica que cumpla el requerimiento solicitado:'+
+      article0:'Evaluamos el requerimiento que nos haga llegar de manera escrita, luego  establecemos  reuniones virtuales y de ser necesario visitas a campo. Esto nos permitirá entender mejor sus necesidad. '+
+                'Presentamos una propuesta tecnológica y económica que cumpla el requerimiento solicitado '+
                 'buscando siempre, el menor precio, '+
-                'ahorro energético y calidad'+
-                'Contamos con un equipo de ingenieros electrónicos y científicos de datos altamente calificados para garantizar la captura y el análisis de sus datos',
+                'ahorro energético y calidad. '+
+                'Contamos con un equipo de ingenieros electrónicos y científicos de datos altamente calificados para garantizar la captura y el análisis de sus datos. ',
       textimg0: 'Sencore',
       imagenConGamma0:"Servicios.png",
       imagenFondo0:"raspis.jpg",
 
 
       title1:'¿ Y Después?',
-      article1:'Generamos un piloto a su medida estableciento las funciones minímas de operación. En esta estapa se capturan la retroalimentción por parte del cliente.'+
+      article1:'Generamos un piloto a su medida estableciento las funciones minímas de operación. En esta estapa se captura la retroalimentción por parte del cliente. '+
                 'Una vez superada la fase de retro alimentación se establecen los plazos de entrega y comienza el desarrollo. '+ 
-                'Finalemente, entregamos la solución tecnológica para mejorar su proceso.',
+                'Finalemente, entregamos la solución tecnológica para mejorar su proceso. ',
       textimg1: 'Sencore',
       imagenConGamma1:"quehacemos.png",
       imagenFondo1:"Sencore3.jpg",

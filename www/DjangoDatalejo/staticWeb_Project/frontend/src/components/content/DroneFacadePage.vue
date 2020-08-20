@@ -60,10 +60,10 @@ export default {
       title0:'Análisis de Fachadas.',
       article0:'Por medio de uso de drones, aprendizaje automático y '+
                'sensores analizamos sus fachadas para encontrar defectos.'+
-               ' Esta tecnología también permite clasificar y contar objetos.'+
-               ' Las inspecciones pueden realizarse rápidamente y bajo demanda con imágenes en vivo, precisas y'+
-                'de alta resolución transmitidas de inmediato para la evaluación y la toma de decisiones dentro y'+
-                'fuera del sitio. El monitoreo crítico y preventivo del estrés de la infraestructura se puede llevar a'+
+               ' Esta tecnología también permite clasificar y contar objetos.\n'+
+               ' Las inspecciones pueden realizarse rápidamente y bajo demanda con imágenes en vivo, precisas y '+
+                'de alta resolución transmitidas de inmediato para la evaluación y la toma de decisiones dentro y '+
+                'fuera del sitio. El monitoreo crítico y preventivo del estrés de la infraestructura se puede llevar a '+
                 'cabo de manera regular con un gran ahorro de costos y protección para la vida humana.',
 
       textimg0: 'DronFacade',
@@ -72,14 +72,14 @@ export default {
 
 
       title1:'Usos',
-      article1:'Encontrar humedad, fisuras, daños en acabados'+
+      article1:'Encontrar humedad, fisuras, daños en acabados '+
                ',modelo de referencia para restauración y control '+
-               ' de fachadas, revisión de áreas comunes./n'+
-                'Infraestructura en la industria energética: Paneles solares, turbinas eólicas, líneas eléctricas.'+
-                'Infraestructura de transporte: Carreteras, túneles, canales, puentes, puertos, aeropuertos.'+
-                'Infraestructura de comunicaciones: Torres para telefonía celular, instalaciones de cable de'+
-                'fibra óptica.'+
-                'Estructuras: Edificios, plantas, tejados, fachadas.',
+               ' de fachadas, revisión de áreas comunes.\n '+
+                '\n Infraestructura en la industria energética:\n • Paneles solares.\n •  turbinas eólicas.\n •  líneas eléctricas.'+
+                '\n\n  Infraestructura de transporte:\n •  Carreteras\n •  túneles\n •  canales\n •  puentes\n •  puertos\n •  aeropuertos.'+
+                '\n\n  Infraestructura de comunicaciones:\n •  Torres para telefonía celular\n •  instalaciones de cable de '+
+                'fibra óptica. '+
+                '\n\n Estructuras:\n • Edificios\n •  plantas\n •  tejados\n •  fachadas.',
                 /*Ayuda visual para de venta inmuebles. '+
                 'Seguimiento de obra. '+
                 'Calculo de volúmenes. '+

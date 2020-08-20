@@ -58,12 +58,13 @@ export default {
   data(){
     return {     
       title0:  'Usamos drones para generar modelos  2D y 3D de estructura y terreno.',
-      article0:'Usamos vehículos no tripulados para capturar y procesar los datos que permitén generar los modelos 3D de estructuras tales como edificaciones,predios,interior de apartamentos,maquinaría y equipo.'+
-               'También nos especializamos en la generación de modelos 3D para el monitoreo de deslizamiento de tierra o roca.'+
-               'Con la información 3D puede apoyarse par realizar diagnosticos, establecer avances de obra, contabilizar unidades,realizar mediciones y promocionar productos.\n'+
+      article0:'Usamos vehículos no tripulados para capturar y procesar los datos que permitén generar los modelos 3D de estructuras tales como edificaciones, predios, interior de apartamentos, maquinaría y equipo. '+
+               'También nos especializamos en la generación de modelos 3D para el monitoreo de deslizamiento de tierra o roca. '+
+               'Con la información 3D puede apoyarse para realizar diagnosticos, establecer avances de obra, contabilizar unidades, realizar mediciones y promocionar productos.\n '+
                '                                                                                                                            \n'+
-               'Los productos 2D son generados a partir de imágenes profesionales capturadas con drone para toma de decisiones rápidas.'+
-               'Dentro de los productos 2D ofrecemos: Medición de características del terreno, creación de mapas base,mosaicos,identificación de puntos de inundación entre otros.',
+               'Los productos 2D son generados a partir de imágenes profesionales capturadas con drone para toma de decisiones rápidas.\n'+
+               '                                                                                                                            \n'+
+               'Dentro de los productos 2D ofrecemos: Medición de características del terreno, creación de mapas base, mosaicos, identificación de puntos de inundación entre otros.',
 
 
                 
@@ -74,17 +75,17 @@ export default {
 
       title1:'Usos',
 
-      article1: 'Existe un sinnúmero de usos que su empresa puede aprovechar al usar nuestros modelos 3D, entre los mas destacados tenemos:\n'+
-                'Ayuda visual para de venta inmuebles. \n'+
-                'Seguimiento de obra.\n'+
-                'Calculo de volúmenes.\n'+
-                'Muestra visual para guías turísticas.\n'+
-                'Evaluación estado de maquinaria y equipo.\n'+
-                'Evaluación y estado de carreteras.\n'+
-                'Fuente de datos para el análisis de movimientos de remoción en masa\n'+
-                'Detección y análisis de líneas de visión y obstrucciones \n'+
-                'Mapas de pendientes\n'+
-                'Datos para mitigación de desastres naturales',
+      article1: 'Existe un sinnúmero de usos que su empresa puede aprovechar al usar nuestros modelos 3D, entre los mas destacados tenemos:\n\n'+
+                '• Ayuda visual para de venta inmuebles. \n'+
+                '• Seguimiento de obra.\n'+
+                '• Calculo de volúmenes.\n'+
+                '• Muestra visual para guías turísticas.\n'+
+                '• Evaluación estado de maquinaria y equipo.\n'+
+                '• Evaluación y estado de carreteras.\n'+
+                '• Fuente de datos para el análisis de movimientos de remoción en masa\n'+
+                '• Detección y análisis de líneas de visión y obstrucciones \n'+
+                '• Mapas de pendientes\n'+
+                '• Datos para mitigación de desastres naturales',
 
       textimg1: 'Capdron',
       imagenConGamma1:"quehacemos.png",

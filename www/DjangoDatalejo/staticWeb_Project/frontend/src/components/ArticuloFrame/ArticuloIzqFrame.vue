@@ -2,7 +2,7 @@
   <section >
     <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row"  >
-            <div class="col-lg-6 col-lg-push-6 " style="padding:7%;" ><!--inicia a la derecha y baja-->
+            <div class="col-lg-6 col-lg-push-6 " style="padding:5%;" ><!--inicia a la derecha y baja-->
                     <h1 class="titleArticle">{{tituloArticulo}}</h1>
                     <div class="textArticle"  ><br>{{textoArticulo}}</div>
             </div>
@@ -18,15 +18,15 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-8">
-                    <div class="col-md-1">
+                    <div class="col-md-0">
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-12">
                         <div  class="frameBack1" > 
                           <img :src="require('@/assets/' + imagenFondo + '')" 
                                   style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 10% 0% 0% 0%;">                   
                           </div> 
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-0">
                     </div>
                 </div>
                 <div class="col-md-0">

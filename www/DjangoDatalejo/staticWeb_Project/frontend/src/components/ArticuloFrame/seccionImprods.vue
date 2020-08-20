@@ -14,21 +14,21 @@
                     <h2 >{{tituloArticulo1}}</h2>
                     <div class="textArticle" align="center; margin:2%; " ><br>{{textoArticulo1}}<br>
                         <img :src="require('@/assets/' + imagenFondo1 + '')" 
-                          style="border-radius:10px 10px 10px 10px;height: 70%; width: 100%;  ">  
+                          style="border-radius:10px 10px 10px 10px;height: 70%; width: 100%; margin: 5% 0% 7% 0% ">  
                     </div>       
             </div>
             <div class="col-md-3" style="margin:0.5%;">
                     <h2 >{{tituloArticulo2}}</h2>
                     <div class="textArticle" align="justifed; margin:2%; " ><br>{{textoArticulo2}}<br>
                         <img :src="require('@/assets/' + imagenFondo2 + '')" 
-                          style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;  "> 
+                          style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;  margin: 5% 0% 7% 0% "> 
                     </div>           
             </div>
             <div class="col-md-3" style="margin:0.5%;">
                     <h2 >{{tituloArticulo3}}</h2>
                     <div class="textArticle" align="justifed; margin:2%; " ><br>{{textoArticulo3}}<br>
                         <img :src="require('@/assets/' + imagenFondo3 + '')" 
-                          style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;  ">      
+                          style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;  margin: 5% 0% 7% 0% ">      
                     </div>    
             </div>
             <div class="col-md-1" style="margin:0.5%;  ">
