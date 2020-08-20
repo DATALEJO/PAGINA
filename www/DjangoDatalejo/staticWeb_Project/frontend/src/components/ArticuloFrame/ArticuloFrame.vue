@@ -3,8 +3,8 @@
     <div class="container-fluid" :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row"  >
             <div class="col-md-6" style="padding:7%;">
-                    <h1 class="titleArticle"  >{{tituloArticulo}}</h1>
-                    <div class="textArticle"  ><br>{{textoArticulo}}</div>
+                    <h1 class="titleArticle" style="text-align:center;" >{{tituloArticulo}}</h1>
+                    <p class="textArticle" style="text-align:justify; text-justify:inter-character; " ><br>{{textoArticulo}}</p>
             </div>
             <div class="col-md-6">
                 <div class="contenedor-paralax">
@@ -17,15 +17,15 @@
                 <div class="col-md-0">
                 </div>
                 <div class="col-md-8">
-                    <div class="col-md-1">
+                    <div class="col-md-0">
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-12">
                         <div  class="frameBack1"  >
                             <img :src="require('@/assets/' + imagenFondo + '')"  
-                                style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 10% 0% 0% 0%;"> 
+                                style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 20% 0% 0% 0%;"> 
                         </div>
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-0">
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -83,7 +83,7 @@ export default {
 
   color: rgb(63,69,77);
   font-size: 24px;
-  text-align:center;
+  text-align:justify;
 }
 
 .row .col-md-6{
@@ -94,13 +94,13 @@ export default {
   color: rgb(109,113,120);
   font-size: 16px;
   white-space: pre-wrap;
-  text-align:center;
+  text-align:justify;
 
 }
 
 @media only screen and (max-width: 800) { 
 
-.textArticle{
+ .textArticle{
   text-align:justify;
 }
 .titleArticle{
