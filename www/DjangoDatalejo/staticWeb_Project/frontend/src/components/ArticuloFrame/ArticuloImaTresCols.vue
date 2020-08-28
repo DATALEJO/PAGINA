@@ -6,14 +6,14 @@
                   
                 </div>
                 <div class="col-md-5">
-                    <div class="col-md-2">
+                    <div class="col-md-1">
                       
                     </div>
-                    <div class="col-md-8">                     
+                    <div class="col-md-10">                     
                       <img  :src="require('@/assets/' + imagenConGamma + '')"  
                             style="border-radius: 20px 20px 20px 20px; height: 100%; width: 100%; object-fit: contain;margin:5% 0% 0% 0%">                 
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-1">
                       
                     </div>
                 </div>
@@ -117,7 +117,7 @@ export default {
    color: black;
    text-align: center;
 }
-@media only screen and (max-width: 800) { 
+@media only screen and (max-width: 800px) { 
 
  .textArticle{
   text-align:justify;

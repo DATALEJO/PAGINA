@@ -105,7 +105,7 @@ export default {
    color: white;
 }
 
-@media only screen and (max-width: 800) { 
+@media only screen and (max-width: 800px) { 
 
  .textArticle{
     font-size: 5vw;
