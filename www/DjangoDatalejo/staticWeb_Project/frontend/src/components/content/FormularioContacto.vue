@@ -270,10 +270,18 @@ export default {
 .contact-title{
     color: rgb(221, 225, 236);
     /*color: RGB(27,34,44);*/
-    font-size: 320%;
+    font-size: 2.8vw;
+    /*font-size: 320%;*/
     text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
     size: 40vh;
     /*background: rgba(0, 0, 0, 0.6);*/
+}
+
+@media only screen and (max-width: 800) { 
+
+ .contact-title{
+     font-size: 8vw;
+ }
 }
 .frame-fm{
 

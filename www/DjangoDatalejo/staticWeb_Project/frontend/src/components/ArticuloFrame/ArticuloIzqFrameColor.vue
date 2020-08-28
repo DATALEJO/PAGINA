@@ -92,17 +92,30 @@ export default {
        url(http://fontsgeek.com/fonts/FoundryGridnik-Bold) format('otf');
 }*/
 .textArticle{
-  font-size: 150%;
+  /*font-size: 16px;*/
+  font-size: 1vw;
   font-weight: normal;
   color: white;
   white-space: pre-wrap;
 }
 .titleArticle{
-   font-size: 170%;
+  /*font-size: 24px;*/
+  font-size: 1.2vw;
    font-weight: bolder;
    color: white;
 }
 
+@media only screen and (max-width: 800) { 
+
+ .textArticle{
+    font-size: 5vw;
+    /*font-size: 24px;*/
+}
+.titleArticle{
+    font-size: 6vw;
+    /*font-size: 16px*/
+  }
+}
 .container-fluid{
   position: relative;
   /*height: 500px;*/

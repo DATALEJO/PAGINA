@@ -16,7 +16,7 @@
                       </parallax>  -->
                 <div class="col-md-0">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-11 col-lg-11 col-xl-11"> <!-- col-md-8 -->
                     <div class="col-md-0">
                     </div>
                     <div class="col-md-12">
@@ -28,7 +28,7 @@
                     <div class="col-md-0">
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-1 col-lg-1 col-xl-1"> <!-- col-md-4 -->
                 </div>      
                 </div>             
             </div>
@@ -82,7 +82,8 @@ export default {
 .titleArticle{
 
   color: rgb(63,69,77);
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 2.2vw;
   text-align:justify;
 }
 
@@ -92,7 +93,8 @@ export default {
 .textArticle{
   /*font-size: medium;*/
   color: rgb(109,113,120);
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1.3vw;
   white-space: pre-wrap;
   text-align:justify;
 
@@ -102,9 +104,13 @@ export default {
 
  .textArticle{
   text-align:justify;
+    font-size: 5vw;
+    /*font-size: 24px;*/
 }
 .titleArticle{
   text-align:justify;
+    font-size: 6vw;
+    /*font-size: 16px*/
   }
 }
 

@@ -91,6 +91,8 @@ ul {
   /*background: rgba(0, 0, 0, 0.6);*/
   color: black;
   text-align: center;
+  /*font-size: 24px;*/
+  font-size: 2.7vw;
 }
 
 
@@ -108,18 +110,21 @@ ul {
   border-radius: 10px;
   border-spacing: 50px;
   padding: 3px 20px 3px 20px;
-  font-size: medium;
+  /*font-size: medium;1.3*/
+  font-size: 1.3vw;
 
 }
 
-@media only screen and (max-width: 600px) {  
+@media only screen and (max-width: 800px) {  
   .parallax-eslogan {
     left: 0;
     top: 25%;
     width: 100%;
+    font-size: 5vw;
   }
   .parallax-title {
     top: 15%;
+    font-size: 8vw;
   }
 
  .parallax-container {

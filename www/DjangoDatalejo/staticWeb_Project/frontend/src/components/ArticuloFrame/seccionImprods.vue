@@ -3,7 +3,7 @@
     <div class="container-fluid"  :style= "{ backgroundImage: 'url(' + require('@/assets/fondoTodo.png') + ')' }">
           <div class="row" style="margin:5%;" >
             <div class="col-md-3 col-md-offset-5" >
-                    <h1 >{{tituloSeccion}}<br></h1>
+                    <h2 class='titleArticle'>{{tituloSeccion}}<br></h2>
             </div>
           </div>
           <div class="row"  >
@@ -11,21 +11,21 @@
 
             </div>
             <div class="col-md-3" style="margin:0.5%;  ">
-                    <h2 >{{tituloArticulo1}}</h2>
+                    <h2 class='titleArticle'>{{tituloArticulo1}}</h2>
                     <div class="textArticle" align="center; margin:2%; " ><br>{{textoArticulo1}}<br>
                         <img :src="require('@/assets/' + imagenFondo1 + '')" 
                           style="border-radius:10px 10px 10px 10px;height: 70%; width: 100%; margin: 5% 0% 7% 0% ">  
                     </div>       
             </div>
             <div class="col-md-3" style="margin:0.5%;">
-                    <h2 >{{tituloArticulo2}}</h2>
+                    <h2 class='titleArticle'>{{tituloArticulo2}}</h2>
                     <div class="textArticle" align="justifed; margin:2%; " ><br>{{textoArticulo2}}<br>
                         <img :src="require('@/assets/' + imagenFondo2 + '')" 
                           style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;  margin: 5% 0% 7% 0% "> 
                     </div>           
             </div>
             <div class="col-md-3" style="margin:0.5%;">
-                    <h2 >{{tituloArticulo3}}</h2>
+                    <h2 class='titleArticle'>{{tituloArticulo3}}</h2>
                     <div class="textArticle" align="justifed; margin:2%; " ><br>{{textoArticulo3}}<br>
                         <img :src="require('@/assets/' + imagenFondo3 + '')" 
                           style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;  margin: 5% 0% 7% 0% ">      
@@ -101,19 +101,33 @@ export default {
        local('@assets/FoundryGridnikMedium/FoundryGridnikMedium.oft'),
        url(http://fontsgeek.com/fonts/FoundryGridnik-Bold) format('otf');
 }*/
-.titleArticle{
+.titleArticle {
 
   color: rgb(63,69,77);
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 1.5vw;
 }
 
 
 .textArticle{
   /*font-size: medium;*/
   color: rgb(109,113,120);
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1vw;
   white-space: pre-wrap;
 
+}
+
+@media only screen and (max-width: 800) { 
+
+ .textArticle{
+    font-size: 5vw;
+    /*font-size: 24px;*/
+}
+.titleArticle{
+    font-size: 6vw;
+    /*font-size: 16px*/
+  }
 }
 
 .container-fluid{
@@ -160,16 +174,6 @@ export default {
   z-index: 0;
 }
 
-.parallax-title {
-  /*position: absolute;
-  top: 50vh;
-  left: 0;
-  right: 0;*/
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.315);
-  color: rgb(200, 205, 221);
-  text-align: center;
-}
 /*
 .big-row {
   height: 40vh;

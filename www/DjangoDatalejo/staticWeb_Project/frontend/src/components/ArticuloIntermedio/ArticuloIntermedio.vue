@@ -36,8 +36,18 @@ export default {
 .textArticle{
   /*font-size: medium;*/
   color: rgb(109,113,120);
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1.3vw;
   text-align: justify;
 
+}
+
+@media only screen and (max-width: 800) { 
+
+ .textArticle{
+  text-align:justify;
+    font-size: 6vw;
+    /*font-size: 24px;*/
+  }
 }
 </style>

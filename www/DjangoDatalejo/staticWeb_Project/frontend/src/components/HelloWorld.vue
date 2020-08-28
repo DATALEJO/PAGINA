@@ -107,8 +107,7 @@ export default {
               'algoritmos de inteligencia artificial creando tableros de resúmenes orientados a la '+
               'toma de decisiones, con soluciones asequibles en costo. La captura de datos se realiza '+
               'usando vehículos no tripulados o desarrollando  hardware a la medida.\n\n'+
-               '                                                                        '+
-              'Realizamos consutoría en temas relacionados con Business intelligence usando tableau, desarrollo de hardware '+
+              'Realizamos consutoria en temas relacionados con Business intelligence usando tableau, desarrollo de hardware \n'+
               'para el sector petrolero y agrícola, análisis espacial y producción de cartografía para estudios de impacto ambiental.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",

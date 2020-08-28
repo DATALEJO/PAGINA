@@ -15,9 +15,9 @@
                             style="height: 100%; width: 100%; object-fit: contain">
                       </parallax> 
                 </div>-->
-                <div class="col-md-4">
+                <div class="col-md-1">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-11">
                     <div class="col-md-0">
                     </div>
                     <div class="col-md-12">
@@ -82,7 +82,7 @@ export default {
 .titleArticle{
 
   color: rgb(63,69,77);
-  font-size: 24px;
+  font-size: 2.2vw;
   text-align:justify;
 }
 
@@ -90,12 +90,26 @@ export default {
 .textArticle{
   /*font-size: medium;*/
   color: rgb(109,113,120);
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1.3vw;
   white-space: pre-wrap;
   text-align:justify;
 
 }
 
+@media only screen and (max-width: 800) { 
+
+ .textArticle{
+  text-align:justify;
+    font-size: 5vw;
+    /*font-size: 24px;*/
+}
+.titleArticle{
+  text-align:justify;
+    font-size: 6vw;
+    /*font-size: 16px*/
+  }
+}
 .container-fluid{
   position: relative;
   /*height: 500px;*/
@@ -153,17 +167,6 @@ export default {
   background: rgba(0, 0, 0, 0.315);
   color: rgb(200, 205, 221);
   text-align: center;
-}
-@media only screen and (max-width: 700) { 
-
-.textArticle{
-  text-align:center;
-  padding:5%;
-}
-.titleArticle{
-  text-align:center;
-  padding:5%;
-  }
 }
 /*
 .big-row {
