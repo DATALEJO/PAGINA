@@ -141,7 +141,7 @@ export default {
   color: rgb(172, 172, 184);
 }
 
-@media only screen and (max-width: 800) { 
+@media only screen and (max-width: 800px) { 
 
  .sencore-title{
      font-size: 8vw;

@@ -42,7 +42,7 @@ export default {
 
 }
 
-@media only screen and (max-width: 800) { 
+@media only screen and (max-width: 800px) { 
 
  .textArticle{
   text-align:justify;

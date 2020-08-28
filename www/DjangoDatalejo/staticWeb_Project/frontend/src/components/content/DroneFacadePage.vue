@@ -121,7 +121,7 @@ export default {
     /*background: rgba(0, 0, 0, 0.6);*/
 }
 
-@media only screen and (max-width: 800) { 
+@media only screen and (max-width: 800px) { 
 
  .dronefacade-title{
      font-size: 8vw;
