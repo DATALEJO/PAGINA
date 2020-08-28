@@ -104,12 +104,11 @@ export default {
       title0:'Datos en la nube, Información disponible',
       article0:'Datalejo es una empresa enfocada en capturar, procesar y '+
               'analizar datos  usando como fuente sensores, tecnologías IoT “Internet Of Things” y '+
-              'algoritmos de inteligencia artificial creando tableros de resumenes orientados a la '+
+              'algoritmos de inteligencia artificial creando tableros de resúmenes orientados a la '+
               'toma de decisiones, con soluciones asequibles en costo. La captura de datos se realiza '+
-              'usando vehículos no tripulados o desarrollando  hardware a la medida.'+
-              '                                                                     '+
-              'Realizamos consutoria en temas relacionados con Business intelligence usando tableau, desarrollo de hardware '+
-              'para el sector petrolero y agrícola, análisis espacial y producción de cartograía para estudios de impacto ambiental.',
+              'usando vehículos no tripulados o desarrollando  hardware a la medida.\n\n'+
+              'Realizamos consutoría en temas relacionados con Business intelligence usando tableau, desarrollo de hardware '+
+              'para el sector petrolero y agrícola, análisis espacial y producción de cartografía para estudios de impacto ambiental.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",
       imagenFondo0:"ImagenQueHacemos.jpeg",
