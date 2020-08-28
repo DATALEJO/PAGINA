@@ -126,7 +126,8 @@ export default {
     color: #8d99ae;*/
     color: #edf2f4; 
     /*color: #02c39a;*/
-    font-size: 320%;
+    font-size: 2.8vw;
+    /*font-size: 320%;*/
     text-shadow: -0.2px -0.2px  rgb(173, 173, 173), 0.2px -0.2px  rgb(173, 173, 173), -0.2px 0.2px  rgb(173, 173, 173),-0.2px 0.2px  rgb(173, 173, 173); 
     size: 40vh;
     /*background: rgba(0, 0, 0, 0.6);*/
@@ -138,5 +139,12 @@ export default {
 
 .color_item{
   color: rgb(172, 172, 184);
+}
+
+@media only screen and (max-width: 800) { 
+
+ .sencore-title{
+     font-size: 8vw;
+ }
 }
 </style>

@@ -103,17 +103,33 @@ export default {
        url(http://fontsgeek.com/fonts/FoundryGridnik-Bold) format('otf');
 }*/
 .textArticle{
-  font-size: 14px;
+  /*font-size: 14px;*/
   color: rgb(109,113,120);
+  /*font-size: 16px;*/
+  font-size: 1vw;
    font-weight: normal;
 }
 .titleArticle{
-   font-size: small;
+   /*font-size: small;*/
+  /*font-size: 24px;*/
+   font-size: 2vw;
    font-weight: bold;
    color: black;
    text-align: center;
 }
+@media only screen and (max-width: 800) { 
 
+ .textArticle{
+  text-align:justify;
+    font-size: 4vw;
+    /*font-size: 24px;*/
+}
+.titleArticle{
+  text-align:justify;
+    font-size: 5vw;
+    /*font-size: 16px*/
+  }
+}
 .container-fluid{
   position: relative;
   z-index: -1;
