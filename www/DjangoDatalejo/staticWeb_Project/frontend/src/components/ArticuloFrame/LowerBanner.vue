@@ -201,17 +201,18 @@ export default {
   /*width: 100%;*/
 }
 
-
+/*
 .parallax-title {
   position: absolute;
   top: 50vh;
   left: 0;
   right: 0;
   padding: 20px;
-  /*background: rgba(0, 0, 0, 0.315);*/
+  //background: rgba(0, 0, 0, 0.315);
   color: rgb(200, 205, 221);
   text-align: center;
-}
+}*/
+
 /*.contbanner{
     height: 30vh;
 }*/

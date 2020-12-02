@@ -21,8 +21,12 @@
                     </div>
                     <div class="col-md-12">
                         <div  class="frameBack1"  >
-                            <img :src="require('@/assets/' + imagenFondo + '')"  
+                            <!--<img :src="require('@/assets/' + imagenFondo + '')"  
                                 style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 20% 0% 0% 0%;"> 
+                                -->
+                            <img :src="require('@/assets/' + imagenFondo + '')" 
+                                  style="border-radius:10px 10px 10px 10px;height: 100%; width: 100%;margin: 10% 0% 0% 0%;">                   
+                          
                         </div>
                     </div>
                     <div class="col-md-0">
@@ -39,10 +43,13 @@
 
 <script>
 import Parallax from "vue-parallaxy";
+//import { PlyrVideo } from 'vue-plyr';
+
 export default {
   name: 'articuloFrame',
   components: {   
-       Parallax    
+       Parallax,
+  //      PlyrVideo
   },
   props: {
       tituloArticulo:{
@@ -69,6 +76,7 @@ export default {
 };
 </script>
 <style scoped>
+
 /*@font-face {
   font-family: 'FoundryGridnik';
   // Antes de descargar el archivo, le decimos al buscador
@@ -150,6 +158,12 @@ export default {
   /*width: 100%;*/
   /*height:100vh;*/
   z-index: -1;
+}
+.video{
+  width: 100%;
+  /*height:100vh;*/
+  border-radius:10px 10px 10px 10px;
+  margin: 15% 0% 0% 0%;
 }
 
 .frameFront{

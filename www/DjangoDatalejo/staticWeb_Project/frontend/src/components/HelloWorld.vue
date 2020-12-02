@@ -2,7 +2,7 @@
     <div class="contenedor-todo">
     <paralax_dl></paralax_dl>
     <div >
-      <articuloFrame  
+      <articuloFrameVideo  
         v-bind:tituloArticulo= "title0" 
         v-bind:textoArticulo= "article0" 
         v-bind:textoSobreImagen= "textimg0"
@@ -11,11 +11,24 @@
       />
     </div>
     <div class="frame-classic-short">
+      <menuProductos />
+    </div>
+    <div class="frame-classic-short">
+      <menuServicios />
+    </div>
+    <div class="frame-classic-short">
+      <bannerUnTexto />
+    </div>
+    
+    <!--
+    <div class="frame-classic-short">
       <articuloIntermedio 
         v-bind:articuloInter= "articuloInter0"
       />
     </div>
-    <div class="frame-classic">
+    -->
+    <!--
+      <div class="frame-classic">
         <articuloImaTresCols  
             v-bind:imagenConGamma= "imagenConGamma1" 
             v-bind:tituloSubArticuloA= "tituloSubArticuloA0" 
@@ -27,6 +40,9 @@
             v-bind:imagenSubArticuloC= "imagenSubArticuloC0"
         />
     </div>
+    -->
+
+    <!--
     <div class="frame-classic-long">
       <articuloIzqFrameColor 
         v-bind:tituloArticulo= "titleArt"
@@ -71,7 +87,9 @@
         v-bind:imagenFondo3= "imagesection43"
        />
     </router-link>
-    <div>
+    -->
+
+    <div class="frame-classic-short" >
       <lowerBanner />
     </div>
   </div>
@@ -80,12 +98,16 @@
 <script>
 import paralax_dl from '@/components/ParalaxVue/ParalaxVue.vue';
 import articuloFrame from '@/components/ArticuloFrame/ArticuloFrame.vue';
+import articuloFrameVideo from '@/components/ArticuloFrame/ArticuloFrameVideo.vue';
 import articuloIzqFrame from '@/components/ArticuloFrame/ArticuloIzqFrame.vue';
 import articuloIzqFrameColor from '@/components/ArticuloFrame/ArticuloIzqFrameColor.vue';
 import lowerBanner from '@/components/ArticuloFrame/LowerBanner.vue';
 import articuloIntermedio from '@/components/ArticuloIntermedio/ArticuloIntermedio.vue';
 import articuloImaTresCols from '@/components/ArticuloFrame/ArticuloImaTresCols.vue';
 import seccionProductos from '@/components/ArticuloFrame/seccionImprods.vue';
+import menuServicios from '@/components/ArticuloFrame/MenuServicios.vue';
+import menuProductos from '@/components/ArticuloFrame/MenuProductos.vue';
+import bannerUnTexto from '@/components/ArticuloFrame/BannerUnTexto.vue';
 
 export default {
   components: {
@@ -95,8 +117,11 @@ export default {
     articuloImaTresCols,
     articuloIzqFrameColor,
     articuloIzqFrame,
-    articuloFrame,
+    articuloFrameVideo,
     seccionProductos,
+    menuProductos,
+    menuServicios,
+    bannerUnTexto,
     lowerBanner
   },
   data(){
@@ -111,7 +136,8 @@ export default {
               'para el sector petrolero y agrícola, análisis espacial y producción de cartografía para estudios de impacto ambiental.',
       textimg0: 'Sencore',
       imagenConGamma0:"quehacemos.png",
-      imagenFondo0:"ImagenQueHacemos.jpeg",
+      //imagenFondo0:"ImagenQueHacemos.jpeg",
+      imagenFondo0:"ima.mp4",
       
       articuloInter0:'Trabajamos con pequeñas  medianas y grandes empresas asesorando de forma personalizada '+
                     'sus necesidades para llegar a una solución conjunta. Con nuestros productos y servicios '+
@@ -157,7 +183,7 @@ export default {
       titleArticle3: 'Generación de reportes App',
       textArticle3: 'Este servició permite analizar los datos capturados por la app, generando reportes relacionados a los usuarios y sus temperaturas.',
       imagesection43 : 'product2.jpeg',
-}
+    }
   }
 
 
@@ -190,6 +216,6 @@ Color letra  general : (109,113,120) 16px*/
     height: 100vh;
 }
 .frame-classic-short{
-    height: 45vh;
+    z-index: 3;
 }*/
 </style>
